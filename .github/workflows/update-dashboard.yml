@@ -1,0 +1,62 @@
+name: Update Dashboard
+
+on:
+  schedule:
+    # Every 5 minutes — the shortest interval GitHub Actions allows. Games are
+    # only scraped once FIBA marks them final, so a run with nothing new loads
+    # two pages and commits nothing. Public repos get free Actions minutes.
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+# Only one build at a time, so two runs can't race on the same push.
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape tournament and build dashboard
+        # --event matches the tournament by name against FIBA's event index,
+        # so there is no URL to maintain here.
+        # --qualify-spots sets the cut line on the Qualification board.
+        run: |
+          python fiba_scrape.py \
+            --event olympic pre-qualifying guadalajara \
+            --qualify-spots 2 \
+            --name "Olympic Pre-Qualifying 2026"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A docs "Olympic Pre-Qualifying 2026"
+          if git diff --staged --quiet; then
+            echo "No new games — nothing to commit"
+          else
+            git commit -m "chore: auto-update dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # main can move while a run is in flight, which would make this
+            # push a non-fast-forward and fail the job. Rebase onto whatever
+            # landed first; the scraped data does not conflict with edits to
+            # the template or the workflow.
+            git pull --rebase --autostash origin main || {
+              echo "Rebase hit a conflict — leaving main alone; next run retries."
+              exit 0
+            }
+            git push origin HEAD:main
+          fi
