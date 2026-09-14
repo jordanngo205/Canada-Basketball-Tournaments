@@ -3,10 +3,14 @@
 Self-updating dashboard for FIBA competitions, built for Canada Basketball.
 Pure Python — no R.
 
-**Live dashboard:** https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/
+One GitHub Pages site now serves multiple tournaments, each in its own
+`docs/<slug>/` subfolder:
 
-Currently tracking the **FIBA Women's Olympic Pre-Qualifying Tournament 2026**
-(Guadalajara, Mexico — 17–23 Aug 2026).
+| Tournament | Dashboard |
+|---|---|
+| FIBA Women's Olympic Pre-Qualifying Tournament 2026 (Guadalajara, Mexico — 17–23 Aug 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/ |
+| FIBA U17 Women's Basketball World Cup 2026 (Brno, Czechia — 11–19 Jul 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u17-world-cup-2026/ |
+| FIBA U18 Women's AmeriCup 2026 (Irapuato, Mexico — 9–15 Jun 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u18-americup-2026/ |
 
 ## How it works
 
@@ -24,9 +28,17 @@ against FIBA's own event index, then walks down to the games:
 Every page's data comes out of the Next.js hydration payload that
 fiba.basketball ships inside its HTML.
 
-A GitHub Action re-runs this every 5 minutes, scrapes any game that has gone
-final since the last run, rebuilds `docs/index.html`, and pushes. GitHub Pages
-serves that file, so the public link updates itself.
+For a **live** tournament, a GitHub Action re-runs this every 5 minutes,
+scrapes any game that has gone final since the last run, rebuilds the
+dashboard, and pushes. GitHub Pages serves the result, so the public link
+updates itself. A **finished** tournament instead gets a `workflow_dispatch`
+(manual-trigger) workflow — there is nothing left to poll for, so a 5-minute
+cron would just be wasted Actions minutes forever.
+
+`--publish-slug SLUG` controls where a dashboard lands: `docs/<SLUG>/index.html`
+instead of `docs/index.html`. This is what lets several tournaments share one
+Pages site — the Olympic Pre-Qualifying dashboard (the original, no slug)
+still publishes to the site root.
 
 ## Usage
 
@@ -37,6 +49,12 @@ python3 fiba_scrape.py --list women olympic        # browse events
 python3 fiba_scrape.py --event olympic pre-qualifying guadalajara \
                        --qualify-spots 2 \
                        --name "Olympic Pre-Qualifying 2026"
+
+# a second tournament, published alongside the first instead of overwriting it
+python3 fiba_scrape.py --event u17 world cup 2026 \
+                       --qualify-spots 4 \
+                       --name "U17 World Cup 2026" \
+                       --publish-slug u17-world-cup-2026
 
 # stay running until every game is final
 python3 fiba_scrape.py --event guadalajara --watch 15
@@ -78,9 +96,15 @@ Add a country to `FLAG_MAP` in `fiba_scrape.py` when a new team appears.
 
 ## Legacy
 
-`legacy/` holds archived U17 World Cup data — the reference tournament used to
-validate this scraper against the Basketball Canada R pipeline it replaces
-(team advanced box, enriched player table and standings matched exactly, with
-one deliberate difference: `FTP` is computed as `FTM/FTA` rather than the R
-script's `FTM/FGA`). Those R scripts have been removed; the pipeline is
-entirely Python. They remain in git history at commit `25c954b`.
+`legacy/` holds the original archived copy of the U17 World Cup data — the
+reference tournament used to validate this scraper against the Basketball
+Canada R pipeline it replaces (team advanced box, enriched player table and
+standings matched exactly, with one deliberate difference: `FTP` is computed
+as `FTM/FTA` rather than the R script's `FTM/FGA`). Those R scripts have been
+removed; the pipeline is entirely Python. They remain in git history at
+commit `25c954b`.
+
+That validated data is also the full FIBA U17 Women's Basketball World Cup
+2026 dataset (Brno, Czechia — all 56 games through the Final), so it was
+copied into `U17 World Cup 2026/data/` to seed the live U17 dashboard above
+instead of re-scraping it.
