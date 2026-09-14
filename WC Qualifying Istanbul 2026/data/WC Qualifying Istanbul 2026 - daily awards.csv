@@ -1,0 +1,101 @@
+date,award,emoji,desc,name,team,gameId,stat_val
+2026-03-11,MVP,🏆,Highest total Net Pts,Stephanie Reid,AUS,128103,25.0
+2026-03-11,LVP,💀,Lowest total Net Pts,Victoria Gauna,ARG,128103,-31.0
+2026-03-11,Heater,🔥,Highest Offensive Net Pts,Stephanie Reid,AUS,128103,18.1
+2026-03-11,Off Night,🌑,Lowest Offensive Net Pts,Mai Yamamoto,JPN,128101,-13.1
+2026-03-11,Stopper,🛡️,Highest Defensive Net Pts,Olcay Cakir,TUR,128102,14.0
+2026-03-11,BBQ,🔥🥩,Lowest Defensive Net Pts,Victoria Gauna,ARG,128103,-22.4
+2026-03-11,Spark Plug,⚡,Best Net Pts off bench,Stephanie Reid,AUS,128103,25.0
+2026-03-11,Ice Cold,🧊,Lowest FG% (min 4 att),Agnes Torok,HUN,128101,0.0
+2026-03-11,Rain Maker,🌧️,Most above-break 3s made,Kokoro Tanaka,JPN,128101,3.0
+2026-03-11,Corner Pocket,📐,Most corner 3s made,Florencia Chagas,ARG,128103,2.0
+2026-03-11,Juggernaut,🚂,Most shots made at rim,Dorka Juhasz,HUN,128101,8.0
+2026-03-11,Surgical,🔬,Most mid-range makes,Sevgi Uzun,TUR,128102,4.0
+2026-03-11,Speed Demon,💨,Most fast-break points,Florencia Chagas,ARG,128103,6.0
+2026-03-11,Glass Cleaner,🪟,Most total rebounds,Kennedy Burke,TUR,128102,11.0
+2026-03-11,Ball Hawk,🦅,Most steals,Mai Yamamoto,JPN,128101,3.0
+2026-03-11,Cleanup Crew,🧹,Most putback points,Dorka Juhasz,HUN,128101,4.0
+2026-03-11,Contact Artist,🎯,Most fouls drawn,Yvonne Turner,HUN,128101,12.0
+2026-03-11,Hacker,🪓,Most personal fouls committed,Azusa Asahina,JPN,128101,4.0
+2026-03-11,Facilitator,🎁,Most assists,Reka Lelik,HUN,128101,8.0
+2026-03-11,Hot Potato,🥔,Most turnovers,Reka Lelik,HUN,128101,4.0
+2026-03-12,MVP,🏆,Highest total Net Pts,Kayla Alexander,CAN,128104,23.0
+2026-03-12,LVP,💀,Lowest total Net Pts,Yuki Miyazawa,JPN,128105,-30.0
+2026-03-12,Heater,🔥,Highest Offensive Net Pts,Steph Talbot,AUS,128105,18.6
+2026-03-12,Off Night,🌑,Lowest Offensive Net Pts,Virag Takacs-Kiss,HUN,128104,-22.7
+2026-03-12,Stopper,🛡️,Highest Defensive Net Pts,Kayla Alexander,CAN,128104,22.7
+2026-03-12,BBQ,🔥🥩,Lowest Defensive Net Pts,Yuki Miyazawa,JPN,128105,-24.3
+2026-03-12,Spark Plug,⚡,Best Net Pts off bench,Sami Hill,CAN,128104,20.0
+2026-03-12,Ice Cold,🧊,Lowest FG% (min 4 att),Merissah Russell,CAN,128104,0.0
+2026-03-12,Rain Maker,🌧️,Most above-break 3s made,Debora Dubei,HUN,128104,3.0
+2026-03-12,Corner Pocket,📐,Most corner 3s made,Aika Hirashita,JPN,128105,3.0
+2026-03-12,Juggernaut,🚂,Most shots made at rim,Zitina Aokuso,AUS,128105,5.0
+2026-03-12,Surgical,🔬,Most mid-range makes,Bridget Carleton,CAN,128104,4.0
+2026-03-12,Speed Demon,💨,Most fast-break points,Mai Yamamoto,JPN,128105,7.0
+2026-03-12,Glass Cleaner,🪟,Most total rebounds,Kayla Alexander,CAN,128104,12.0
+2026-03-12,Ball Hawk,🦅,Most steals,Kayla Alexander,CAN,128104,4.0
+2026-03-12,Cleanup Crew,🧹,Most putback points,Kayla Alexander,CAN,128104,6.0
+2026-03-12,Contact Artist,🎯,Most fouls drawn,Aaliyah Edwards,CAN,128104,6.0
+2026-03-12,Hacker,🪓,Most personal fouls committed,Olcay Cakir,TUR,128106,5.0
+2026-03-12,Facilitator,🎁,Most assists,Rui Machida,JPN,128105,10.0
+2026-03-12,Hot Potato,🥔,Most turnovers,Yvonne Turner,HUN,128104,4.0
+2026-03-14,MVP,🏆,Highest total Net Pts,Aaliyah Edwards,CAN,128108,30.0
+2026-03-14,LVP,💀,Lowest total Net Pts,Florencia Chagas,ARG,128108,-26.0
+2026-03-14,Heater,🔥,Highest Offensive Net Pts,Ayse Cora Yamaner,TUR,128109,15.1
+2026-03-14,Off Night,🌑,Lowest Offensive Net Pts,Florencia Chagas,ARG,128108,-20.5
+2026-03-14,Stopper,🛡️,Highest Defensive Net Pts,Aaliyah Edwards,CAN,128108,23.7
+2026-03-14,BBQ,🔥🥩,Lowest Defensive Net Pts,Aika Hirashita,JPN,128109,-16.9
+2026-03-14,Spark Plug,⚡,Best Net Pts off bench,Ayse Cora Yamaner,TUR,128109,16.0
+2026-03-14,Ice Cold,🧊,Lowest FG% (min 4 att),Reka Lelik,HUN,128107,0.0
+2026-03-14,Rain Maker,🌧️,Most above-break 3s made,Debora Dubei,HUN,128107,3.0
+2026-03-14,Corner Pocket,📐,Most corner 3s made,Kennedy Burke,TUR,128109,2.0
+2026-03-14,Juggernaut,🚂,Most shots made at rim,Aaliyah Edwards,CAN,128108,4.0
+2026-03-14,Surgical,🔬,Most mid-range makes,Isobel Borlase,AUS,128107,2.0
+2026-03-14,Speed Demon,💨,Most fast-break points,Florencia Chagas,ARG,128108,5.0
+2026-03-14,Glass Cleaner,🪟,Most total rebounds,Aaliyah Edwards,CAN,128108,15.0
+2026-03-14,Ball Hawk,🦅,Most steals,Sami Whitcomb,AUS,128107,4.0
+2026-03-14,Cleanup Crew,🧹,Most putback points,Aaliyah Edwards,CAN,128108,4.0
+2026-03-14,Contact Artist,🎯,Most fouls drawn,Alanna Smith,AUS,128107,8.0
+2026-03-14,Hacker,🪓,Most personal fouls committed,Kinga Josepovits,HUN,128107,5.0
+2026-03-14,Facilitator,🎁,Most assists,Olcay Cakir,TUR,128109,6.0
+2026-03-14,Hot Potato,🥔,Most turnovers,Faith Dut,CAN,128108,4.0
+2026-03-15,MVP,🏆,Highest total Net Pts,Virag Takacs-Kiss,HUN,128110,17.0
+2026-03-15,LVP,💀,Lowest total Net Pts,Sami Hill,CAN,128112,-16.0
+2026-03-15,Heater,🔥,Highest Offensive Net Pts,Virag Takacs-Kiss,HUN,128110,14.9
+2026-03-15,Off Night,🌑,Lowest Offensive Net Pts,Nanako Todo,JPN,128112,-7.3
+2026-03-15,Stopper,🛡️,Highest Defensive Net Pts,Victoria Gauna,ARG,128110,7.9
+2026-03-15,BBQ,🔥🥩,Lowest Defensive Net Pts,Melisa Gretter,ARG,128110,-11.4
+2026-03-15,Spark Plug,⚡,Best Net Pts off bench,Virag Takacs-Kiss,HUN,128110,17.0
+2026-03-15,Ice Cold,🧊,Lowest FG% (min 4 att),Yvonne Turner,HUN,128110,0.0
+2026-03-15,Rain Maker,🌧️,Most above-break 3s made,Florencia Chagas,ARG,128110,4.0
+2026-03-15,Corner Pocket,📐,Most corner 3s made,Reka Dombai,HUN,128110,2.0
+2026-03-15,Juggernaut,🚂,Most shots made at rim,Aaliyah Edwards,CAN,128112,5.0
+2026-03-15,Surgical,🔬,Most mid-range makes,Aaliyah Edwards,CAN,128112,3.0
+2026-03-15,Speed Demon,💨,Most fast-break points,Cayla George,AUS,128111,9.0
+2026-03-15,Glass Cleaner,🪟,Most total rebounds,Virag Takacs-Kiss,HUN,128110,18.0
+2026-03-15,Ball Hawk,🦅,Most steals,Sami Whitcomb,AUS,128111,5.0
+2026-03-15,Cleanup Crew,🧹,Most putback points,Alanna Smith,AUS,128111,4.0
+2026-03-15,Contact Artist,🎯,Most fouls drawn,Virag Takacs-Kiss,HUN,128110,11.0
+2026-03-15,Hacker,🪓,Most personal fouls committed,Florencia Chagas,ARG,128110,5.0
+2026-03-15,Facilitator,🎁,Most assists,Reka Lelik,HUN,128110,7.0
+2026-03-15,Hot Potato,🥔,Most turnovers,Olcay Cakir,TUR,128111,5.0
+2026-03-17,MVP,🏆,Highest total Net Pts,Mai Yamamoto,JPN,128114,32.0
+2026-03-17,LVP,💀,Lowest total Net Pts,Melisa Gretter,ARG,128114,-32.0
+2026-03-17,Heater,🔥,Highest Offensive Net Pts,Dorka Juhasz,HUN,128113,23.8
+2026-03-17,Off Night,🌑,Lowest Offensive Net Pts,Melisa Gretter,ARG,128114,-16.4
+2026-03-17,Stopper,🛡️,Highest Defensive Net Pts,Mai Yamamoto,JPN,128114,16.4
+2026-03-17,BBQ,🔥🥩,Lowest Defensive Net Pts,Melisa Gretter,ARG,128114,-15.6
+2026-03-17,Spark Plug,⚡,Best Net Pts off bench,Mai Yamamoto,JPN,128114,32.0
+2026-03-17,Ice Cold,🧊,Lowest FG% (min 4 att),Candela Gentinetta,ARG,128114,0.0
+2026-03-17,Rain Maker,🌧️,Most above-break 3s made,Aika Hirashita,JPN,128114,4.0
+2026-03-17,Corner Pocket,📐,Most corner 3s made,Debora Dubei,HUN,128113,2.0
+2026-03-17,Juggernaut,🚂,Most shots made at rim,Dorka Juhasz,HUN,128113,5.0
+2026-03-17,Surgical,🔬,Most mid-range makes,Bridget Carleton,CAN,128115,3.0
+2026-03-17,Speed Demon,💨,Most fast-break points,Debora Dubei,HUN,128113,5.0
+2026-03-17,Glass Cleaner,🪟,Most total rebounds,Kayla Alexander,CAN,128115,13.0
+2026-03-17,Ball Hawk,🦅,Most steals,Reka Lelik,HUN,128113,5.0
+2026-03-17,Cleanup Crew,🧹,Most putback points,Kayla Alexander,CAN,128115,4.0
+2026-03-17,Contact Artist,🎯,Most fouls drawn,Dorka Juhasz,HUN,128113,7.0
+2026-03-17,Hacker,🪓,Most personal fouls committed,Zeynep Gul,TUR,128113,5.0
+2026-03-17,Facilitator,🎁,Most assists,Shay Colley,CAN,128115,10.0
+2026-03-17,Hot Potato,🥔,Most turnovers,Zitina Aokuso,AUS,128115,6.0
