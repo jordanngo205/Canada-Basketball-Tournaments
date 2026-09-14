@@ -3,14 +3,21 @@
 Self-updating dashboard for FIBA competitions, built for Canada Basketball.
 Pure Python — no R.
 
-One GitHub Pages site now serves multiple tournaments, each in its own
-`docs/<slug>/` subfolder:
+**Live hub:** https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/
+
+One GitHub Pages site now serves multiple tournaments. The site root is a
+static hub page (`docs/index.html`, hand-authored — the scraper never
+touches it) with a card linking out to each tournament's own dashboard,
+which lives in its own `docs/<slug>/` subfolder:
 
 | Tournament | Dashboard |
 |---|---|
-| FIBA Women's Olympic Pre-Qualifying Tournament 2026 (Guadalajara, Mexico — 17–23 Aug 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/ |
+| FIBA Women's Olympic Pre-Qualifying Tournament 2026 (Guadalajara, Mexico — 17–23 Aug 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/olympic-pre-qualifying-2026/ |
 | FIBA U17 Women's Basketball World Cup 2026 (Brno, Czechia — 11–19 Jul 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u17-world-cup-2026/ |
 | FIBA U18 Women's AmeriCup 2026 (Irapuato, Mexico — 9–15 Jun 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u18-americup-2026/ |
+
+Adding another tournament later just means: run `fiba_scrape.py` with a new
+`--publish-slug`, then add one more card to `docs/index.html`.
 
 ## How it works
 
@@ -22,7 +29,7 @@ against FIBA's own event index, then walks down to the games:
    → /en/events              event index, matched by name → slug
    → /en/events/<slug>/games full schedule, final games only
    → /games/<id>-<A>-<B>     box scores + play-by-play
-   → CSVs → dashboard_template.html → docs/index.html
+   → CSVs → dashboard_template.html → docs/<slug>/index.html
 ```
 
 Every page's data comes out of the Next.js hydration payload that
