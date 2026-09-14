@@ -39,7 +39,8 @@ jobs:
           python fiba_scrape.py \
             --event olympic pre-qualifying guadalajara \
             --qualify-spots 2 \
-            --name "Olympic Pre-Qualifying 2026"
+            --name "Olympic Pre-Qualifying 2026" \
+            --publish-slug olympic-pre-qualifying-2026
 
       - name: Commit and push
         run: |
