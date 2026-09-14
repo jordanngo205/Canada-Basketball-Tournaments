@@ -829,7 +829,15 @@ def safe_name(text: str) -> str:
 
 
 def load_csv(path: Path) -> pd.DataFrame:
-    return pd.read_csv(path) if path.exists() else pd.DataFrame()
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except pd.errors.EmptyDataError:
+        # A prior run can write a genuinely empty table (e.g. a participant
+        # log when every game that run saw was already in the CSVs, so
+        # nothing new was scraped) -- same as the file not existing.
+        return pd.DataFrame()
 
 
 def main() -> None:
