@@ -994,14 +994,17 @@ function populateTeamFilter() {
 // ─────────────────────────────────────────────────────────────────────────────
 function renderStandings() {
   const ts = {};
-  GAME_DETAILS.filter(g=>activeDate==='ALL'||g.date<=activeDate).forEach(g=>{
+  const filtered = GAME_DETAILS.filter(g=>activeDate==='ALL'||g.date<=activeDate);
+  filtered.forEach(g=>{
     [[g.home_team,g.home_short,+g.home_score,+g.away_score],[g.away_team,g.away_short,+g.away_score,+g.home_score]].forEach(([t,sc,s,o])=>{
-      if(!ts[t]) ts[t]={t,sc,W:0,L:0,D:0};
+      if(!ts[t]) ts[t]={t,sc,grp:null,W:0,L:0,D:0};
       s>o?ts[t].W++:ts[t].L++;
       ts[t].D+=s-o;
     });
   });
-  const rows=Object.values(ts).sort((a,b)=>b.W-a.W||b.D-a.D);
+  // Same points-then-mini-league tiebreak as the Qualification board, so the
+  // two views never disagree on order for the same reason U17 vs. FIBA did.
+  const rows=applyTiebreak(Object.values(ts).map(r=>Object.assign(r,{P:r.W*2+r.L})), filtered, false);
   document.getElementById('standingsBody').innerHTML=rows.map(r=>{
     const d=r.D>=0?`+${r.D}`:String(r.D);
     return `<tr class="standings-row" style="background:${teamTint(r.sc)};
@@ -1197,11 +1200,51 @@ function renderStamp() {
 // ─────────────────────────────────────────────────────────────────────────────
 // Only group-phase games decide who advances; knockout results must not be
 // folded into a group table.
+// FIBA breaks a points tie with a mini-league of just the games between the
+// tied teams (points, then point diff within those games, then points
+// scored within those games) -- NOT overall tournament diff. A 3-way tie
+// resolved by overall diff can rank teams in the wrong order versus FIBA's
+// own standings: a team that beat both the others head-to-head but leaked
+// points in a blowout loss elsewhere should still finish above them.
+// Overall diff is used only as a last-resort fallback if the mini-league
+// itself still leaves teams level.
+function applyTiebreak(rows, games, byGroup) {
+  const buckets = new Map();
+  rows.forEach(r => {
+    const key = (byGroup ? r.grp + '|' : '') + r.P;
+    if (!buckets.has(key)) buckets.set(key, []);
+    buckets.get(key).push(r);
+  });
+  buckets.forEach(tied => {
+    if (tied.length < 2) return;
+    const codes = new Set(tied.map(r => r.sc));
+    const mini = {};
+    tied.forEach(r => mini[r.sc] = { mp: 0, md: 0, mpf: 0 });
+    games.forEach(g => {
+      if (!codes.has(g.home_short) || !codes.has(g.away_short)) return;
+      const hs = +g.home_score, as = +g.away_score;
+      mini[g.home_short].mp += hs > as ? 2 : 1;
+      mini[g.away_short].mp += as > hs ? 2 : 1;
+      mini[g.home_short].md += hs - as;
+      mini[g.away_short].md += as - hs;
+      mini[g.home_short].mpf += hs;
+      mini[g.away_short].mpf += as;
+    });
+    tied.sort((a, b) => mini[b.sc].mp - mini[a.sc].mp
+      || mini[b.sc].md - mini[a.sc].md
+      || mini[b.sc].mpf - mini[a.sc].mpf
+      || b.D - a.D);
+  });
+  // Flattening and re-sorting on points only reorders *between* buckets --
+  // stable sort leaves each bucket's just-resolved internal order alone.
+  return [...buckets.values()].flat().sort((a, b) => b.P - a.P);
+}
+
 function standingsRows(groupOnly) {
   const ts = {};
-  GAME_DETAILS.filter(g => activeDate === 'ALL' || g.date <= activeDate)
-    .filter(g => !groupOnly || (g.group !== undefined && g.group !== null && g.group !== ''))
-    .forEach(g => {
+  const filtered = GAME_DETAILS.filter(g => activeDate === 'ALL' || g.date <= activeDate)
+    .filter(g => !groupOnly || (g.group !== undefined && g.group !== null && g.group !== ''));
+  filtered.forEach(g => {
       [[g.home_team, g.home_short, +g.home_score, +g.away_score],
        [g.away_team, g.away_short, +g.away_score, +g.home_score]].forEach(([t, sc, s, o]) => {
         const key = groupOnly ? g.group + '|' + t : t;
@@ -1211,9 +1254,8 @@ function standingsRows(groupOnly) {
       });
     });
   // FIBA ranks on competition points: 2 for a win, 1 for a loss.
-  return Object.values(ts)
-    .map(r => Object.assign(r, { P: r.W * 2 + r.L }))
-    .sort((a, b) => b.P - a.P || b.D - a.D);
+  const rows = Object.values(ts).map(r => Object.assign(r, { P: r.W * 2 + r.L }));
+  return applyTiebreak(rows, filtered, groupOnly);
 }
 
 function qualRow(r, rank, inSpot) {
@@ -1246,7 +1288,12 @@ function renderQualification() {
           rows.push({ t: code, sc: code, grp: g, W: 0, L: 0, D: 0, P: 0 });
         }
       }));
-      rows.sort((a, b) => b.P - a.P || b.D - a.D);
+      // Re-sort with the same tiebreak standingsRows used -- a plain P/D
+      // sort here would silently throw away the mini-league order it just
+      // resolved (0-0 placeholders never affect it: they only ever tie
+      // against other still-winless teams, all sharing P: 0).
+      const games = GAME_DETAILS.filter(g => activeDate === 'ALL' || g.date <= activeDate);
+      rows.splice(0, rows.length, ...applyTiebreak(rows, games, true));
     }
     sub.textContent = `Top ${spots} from each group advance — ranked on points ` +
       `(2 for a win, 1 for a loss), then point differential` +
