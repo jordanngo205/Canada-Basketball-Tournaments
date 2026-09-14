@@ -1,0 +1,45 @@
+gameId,date,fibaZone,competition,round,team,team_short,Win,Loss,Differential
+130901,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Venezuela,VEN,1,0,17
+130901,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Dominican Republic,DOM,0,1,-17
+130902,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Canada,CAN,1,0,50
+130902,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Dominican Republic,DOM,0,1,-50
+130903,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Canada,CAN,1,0,64
+130903,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Puerto Rico,PUR,0,1,-64
+130904,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Venezuela,VEN,1,0,19
+130904,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Puerto Rico,PUR,0,1,-19
+130905,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Dominican Republic,DOM,1,0,8
+130905,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Puerto Rico,PUR,0,1,-8
+130906,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Venezuela,VEN,0,1,-41
+130906,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Canada,CAN,1,0,41
+130907,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Argentina,ARG,1,0,21
+130907,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Mexico,MEX,0,1,-21
+130908,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Mexico,MEX,1,0,16
+130908,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Paraguay,PAR,0,1,-16
+130909,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,USA,USA,1,0,66
+130909,2026-06-09,Americas,FIBA U18 Women's AmeriCup,Group Phase,Argentina,ARG,0,1,-66
+130910,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,USA,USA,1,0,72
+130910,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Mexico,MEX,0,1,-72
+130911,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,USA,USA,1,0,82
+130911,2026-06-12,Americas,FIBA U18 Women's AmeriCup,Group Phase,Paraguay,PAR,0,1,-82
+130912,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Paraguay,PAR,0,1,-46
+130912,2026-06-10,Americas,FIBA U18 Women's AmeriCup,Group Phase,Argentina,ARG,1,0,46
+134672,2026-06-13,Americas,FIBA U18 Women's AmeriCup,Quarter-Finals,Argentina,ARG,1,0,35
+134672,2026-06-13,Americas,FIBA U18 Women's AmeriCup,Quarter-Finals,Dominican Republic,DOM,0,1,-35
+134673,2026-06-13,Americas,FIBA U18 Women's AmeriCup,Quarter-Finals,Mexico,MEX,0,1,-11
+134673,2026-06-13,Americas,FIBA U18 Women's AmeriCup,Quarter-Finals,Venezuela,VEN,1,0,11
+134674,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Classification 5-8,Paraguay,PAR,1,0,5
+134674,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Classification 5-8,Dominican Republic,DOM,0,1,-5
+134675,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Classification 5-8,Mexico,MEX,1,0,20
+134675,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Classification 5-8,Puerto Rico,PUR,0,1,-20
+134676,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Semi-Finals,Argentina,ARG,0,1,-12
+134676,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Semi-Finals,Canada,CAN,1,0,12
+134677,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Semi-Finals,USA,USA,1,0,53
+134677,2026-06-14,Americas,FIBA U18 Women's AmeriCup,Semi-Finals,Venezuela,VEN,0,1,-53
+134678,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Classification 7-8,Puerto Rico,PUR,1,0,1
+134678,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Classification 7-8,Dominican Republic,DOM,0,1,-1
+134679,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Classification 5-6,Paraguay,PAR,0,1,-7
+134679,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Classification 5-6,Mexico,MEX,1,0,7
+134680,2026-06-15,Americas,FIBA U18 Women's AmeriCup,3rd Place Game,Venezuela,VEN,0,1,-24
+134680,2026-06-15,Americas,FIBA U18 Women's AmeriCup,3rd Place Game,Argentina,ARG,1,0,24
+134681,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Final,Canada,CAN,0,1,-18
+134681,2026-06-15,Americas,FIBA U18 Women's AmeriCup,Final,USA,USA,1,0,18
