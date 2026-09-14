@@ -6,20 +6,17 @@
 <title>2026 Tournaments</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #f5f6f8;
     --surface: #ffffff;
-    --surface2: #fafbfc;
     --border: #e8eaef;
     --border2: #d3d8e0;
     --text: #0f172a;
-    --text2: #3f4a5a;
     --muted: #6b7280;
     --muted2: #9ca3af;
     --accent: #D80621;
-    --accent-light: #eff6ff;
     --green: #16a34a;
     --green-bg: #f0fdf4;
     --green-border: #bbf7d0;
@@ -50,68 +47,105 @@
     opacity: 0.9;
   }
   main {
-    max-width: 920px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 28px 20px 60px;
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 18px;
   }
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 14px;
-    padding: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.05);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    overflow: hidden;
     text-decoration: none;
     color: inherit;
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
     transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
   }
   .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(0,0,0,.1);
     border-color: var(--border2);
   }
+  .banner {
+    position: relative;
+    height: 130px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    color: #fff;
+  }
+  .banner-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  .flag {
+    font-size: 20px;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,.25));
+  }
   .badge {
-    align-self: flex-start;
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .04em;
     padding: 3px 9px;
     border-radius: 999px;
-    background: var(--green-bg);
-    color: var(--green);
-    border: 1px solid var(--green-border);
+    background: rgba(255,255,255,.18);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,.35);
+    backdrop-filter: blur(2px);
   }
-  .card h2 {
-    margin: 0;
-    font-size: 16px;
+  .banner-title {
+    z-index: 1;
+    font-size: 21px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+  }
+  .banner-title small {
+    display: block;
+    font-size: 12px;
     font-weight: 700;
+    opacity: .85;
+    letter-spacing: .06em;
+    margin-top: 2px;
+  }
+  .watermark {
+    position: absolute;
+    right: -18px;
+    bottom: -22px;
+    width: 130px;
+    height: 130px;
+    opacity: .16;
+  }
+  .body {
+    padding: 14px 16px 16px;
+  }
+  .full-name {
+    margin: 0 0 6px;
+    font-size: 13px;
+    font-weight: 600;
     color: var(--text);
   }
   .meta {
-    font-size: 12.5px;
+    font-size: 12px;
     color: var(--muted);
   }
-  .champ {
-    margin-top: auto;
+  .cta {
+    margin-top: 12px;
     padding-top: 10px;
     border-top: 1px solid var(--border);
     font-size: 12.5px;
-    color: var(--text2);
-  }
-  .champ strong {
-    color: var(--text);
-  }
-  .cta {
-    font-size: 12.5px;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--accent);
   }
   footer {
@@ -131,27 +165,60 @@
     <div class="grid">
 
       <a class="card" href="./olympic-pre-qualifying-2026/">
-        <span class="badge">Final</span>
-        <h2>FIBA Women's Olympic Pre-Qualifying Tournament 2026</h2>
-        <div class="meta">Guadalajara, Mexico &nbsp;·&nbsp; 17–23 Aug 2026</div>
-        <div class="champ"><strong>Canada</strong> won 83–53 over Mexico in the final — qualified to the FIBA Women's Olympic Qualifying Tournament.</div>
-        <div class="cta">View dashboard &rarr;</div>
+        <div class="banner" style="background: linear-gradient(135deg, #D80621, #8f0417);">
+          <svg class="watermark" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2v20M4.5 4.5c3 3 3 12.9 0 15M19.5 4.5c-3 3-3 12.9 0 15"/>
+          </svg>
+          <div class="banner-top">
+            <span class="flag">🇲🇽</span>
+            <span class="badge">Final</span>
+          </div>
+          <div class="banner-title">Olympic Pre-Qualifying<small>FIBA WOMEN'S &nbsp;·&nbsp; 2026</small></div>
+        </div>
+        <div class="body">
+          <p class="full-name">FIBA Women's Olympic Pre-Qualifying Tournament 2026</p>
+          <div class="meta">Guadalajara, Mexico &nbsp;·&nbsp; 17–23 Aug 2026</div>
+          <div class="cta">View dashboard &rarr;</div>
+        </div>
       </a>
 
       <a class="card" href="./u17-world-cup-2026/">
-        <span class="badge">Final</span>
-        <h2>FIBA U17 Women's Basketball World Cup 2026</h2>
-        <div class="meta">Brno, Czechia &nbsp;·&nbsp; 11–19 Jul 2026</div>
-        <div class="champ"><strong>USA</strong> won 82–73 over Spain in the final.</div>
-        <div class="cta">View dashboard &rarr;</div>
+        <div class="banner" style="background: linear-gradient(135deg, #11457E, #0a2c52);">
+          <svg class="watermark" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2v20M4.5 4.5c3 3 3 12.9 0 15M19.5 4.5c-3 3-3 12.9 0 15"/>
+          </svg>
+          <div class="banner-top">
+            <span class="flag">🇨🇿</span>
+            <span class="badge">Final</span>
+          </div>
+          <div class="banner-title">U17 World Cup<small>FIBA WOMEN'S &nbsp;·&nbsp; 2026</small></div>
+        </div>
+        <div class="body">
+          <p class="full-name">FIBA U17 Women's Basketball World Cup 2026</p>
+          <div class="meta">Brno, Czechia &nbsp;·&nbsp; 11–19 Jul 2026</div>
+          <div class="cta">View dashboard &rarr;</div>
+        </div>
       </a>
 
       <a class="card" href="./u18-americup-2026/">
-        <span class="badge">Final</span>
-        <h2>FIBA U18 Women's AmeriCup 2026</h2>
-        <div class="meta">Irapuato, Mexico &nbsp;·&nbsp; 9–15 Jun 2026</div>
-        <div class="champ"><strong>USA</strong> won the title; Canada finished runner-up.</div>
-        <div class="cta">View dashboard &rarr;</div>
+        <div class="banner" style="background: linear-gradient(135deg, #CA8A04, #8a5d02);">
+          <svg class="watermark" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2v20M4.5 4.5c3 3 3 12.9 0 15M19.5 4.5c-3 3-3 12.9 0 15"/>
+          </svg>
+          <div class="banner-top">
+            <span class="flag">🇲🇽</span>
+            <span class="badge">Final</span>
+          </div>
+          <div class="banner-title">U18 AmeriCup<small>FIBA WOMEN'S &nbsp;·&nbsp; 2026</small></div>
+        </div>
+        <div class="body">
+          <p class="full-name">FIBA U18 Women's AmeriCup 2026</p>
+          <div class="meta">Irapuato, Mexico &nbsp;·&nbsp; 9–15 Jun 2026</div>
+          <div class="cta">View dashboard &rarr;</div>
+        </div>
       </a>
 
     </div>
