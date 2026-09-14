@@ -3,7 +3,7 @@
 Self-updating dashboard for FIBA competitions, built for Canada Basketball.
 Pure Python — no R.
 
-**Live hub:** https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/
+**Live hub:** https://jordanngo205.github.io/Canada-Basketball-Tournaments/
 
 One GitHub Pages site now serves multiple tournaments. The site root is a
 static hub page (`docs/index.html`, hand-authored — the scraper never
@@ -12,10 +12,10 @@ which lives in its own `docs/<slug>/` subfolder:
 
 | Tournament | Dashboard |
 |---|---|
-| FIBA Women's Basketball World Cup 2026 Qualifying Tournament — Istanbul (Istanbul, Türkiye — 11–17 Mar 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/wc-qualifying-istanbul-2026/ |
-| FIBA U18 Women's AmeriCup 2026 (Irapuato, Mexico — 9–15 Jun 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u18-americup-2026/ |
-| FIBA U17 Women's Basketball World Cup 2026 (Brno, Czechia — 11–19 Jul 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/u17-world-cup-2026/ |
-| FIBA Women's Olympic Pre-Qualifying Tournament 2026 (Guadalajara, Mexico — 17–23 Aug 2026) | https://jordanngo205.github.io/Olympic-Pre-Qualifying-Tournament-Tracker/olympic-pre-qualifying-2026/ |
+| FIBA Women's Basketball World Cup 2026 Qualifying Tournament — Istanbul (Istanbul, Türkiye — 11–17 Mar 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/wc-qualifying-istanbul-2026/ |
+| FIBA U18 Women's AmeriCup 2026 (Irapuato, Mexico — 9–15 Jun 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/u18-americup-2026/ |
+| FIBA U17 Women's Basketball World Cup 2026 (Brno, Czechia — 11–19 Jul 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/u17-world-cup-2026/ |
+| FIBA Women's Olympic Pre-Qualifying Tournament 2026 (Guadalajara, Mexico — 17–23 Aug 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/olympic-pre-qualifying-2026/ |
 
 Adding another tournament later just means: run `fiba_scrape.py` with a new
 `--publish-slug`, then add one more card to `docs/index.html`.
@@ -45,8 +45,9 @@ cron would just be wasted Actions minutes forever.
 
 `--publish-slug SLUG` controls where a dashboard lands: `docs/<SLUG>/index.html`
 instead of `docs/index.html`. This is what lets several tournaments share one
-Pages site — the Olympic Pre-Qualifying dashboard (the original, no slug)
-still publishes to the site root.
+Pages site. The site root (`docs/index.html`) is reserved for the hand-authored
+hub page, so every tournament — including Olympic Pre-Qualifying — publishes
+with a `--publish-slug` of its own.
 
 ## Usage
 
