@@ -839,6 +839,17 @@ def main() -> None:
                     help="list events (optionally filtered by words)")
     ap.add_argument("--event", nargs="+", metavar="WORD",
                     help="words identifying the tournament, e.g. --event women olympic guadalajara")
+    ap.add_argument("--slug", metavar="SLUG",
+                    help="skip event-index discovery and use this exact FIBA event slug "
+                         "(the part of the URL after /en/events/). Needed for tournaments "
+                         "FIBA's /en/events index no longer lists — it only seems to carry "
+                         "current/upcoming events, so anything finished drops off it. Pair "
+                         "with --event-name/--start/--end/--host to populate the dashboard "
+                         "header, since none of that gets looked up when the index is skipped.")
+    ap.add_argument("--event-name", help="event display name, used with --slug")
+    ap.add_argument("--start", help="event start date YYYY-MM-DD, used with --slug")
+    ap.add_argument("--end", help="event end date YYYY-MM-DD, used with --slug")
+    ap.add_argument("--host", help="event host city/country, used with --slug")
     ap.add_argument("--name", help="folder name for the output (default: official event name)")
     ap.add_argument("--qualify-spots", type=int, default=4, metavar="N",
                     help="how many teams advance; sets the cut line on the "
@@ -865,11 +876,20 @@ def main() -> None:
                   + (f"  [{r['host']}]" if r["host"] else ""))
         return
 
-    if not args.event:
-        ap.error("give --event WORDS (or --list to browse)")
+    if not args.event and not args.slug:
+        ap.error("give --event WORDS or --slug SLUG (or --list to browse)")
 
-    events = list_events()
-    ev = resolve_event(" ".join(args.event), events)
+    if args.slug:
+        ev = pd.Series({
+            "slug": args.slug,
+            "name": args.event_name or args.name or args.slug,
+            "start": args.start or "",
+            "end": args.end or "",
+            "host": args.host or "",
+        })
+    else:
+        events = list_events()
+        ev = resolve_event(" ".join(args.event), events)
     competition = safe_name(args.name or ev["name"])
     print(f"\nEvent:       {ev['name']}")
     print(f"Host:        {ev['host']}")

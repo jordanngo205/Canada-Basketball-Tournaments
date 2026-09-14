@@ -29,9 +29,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Scrape tournament and build dashboard
+        # FIBA's /en/events index only carries current/upcoming events, so a
+        # finished tournament like this one has aged off it and --event
+        # name-matching can't find it. Use the exact slug instead (confirmed
+        # from the fiba.basketball event page URL for this tournament).
         run: |
           python fiba_scrape.py \
-            --event u18 americup 2026 \
+            --slug fiba-u18-womens-americup-2026 \
+            --event-name "FIBA U18 Women's AmeriCup" \
+            --start 2026-06-09 --end 2026-06-15 --host "Irapuato, Mexico" \
             --qualify-spots 2 \
             --name "U18 AmeriCup 2026" \
             --publish-slug u18-americup-2026
