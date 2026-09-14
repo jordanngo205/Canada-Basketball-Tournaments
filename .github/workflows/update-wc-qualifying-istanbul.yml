@@ -1,0 +1,60 @@
+name: Update World Cup Qualifying (Istanbul) Dashboard
+
+# This tournament (Istanbul, Turkiye — 11-17 Mar 2026) has already finished,
+# so there is nothing to poll for. Manual trigger only, e.g. to rebuild the
+# dashboard after a template change.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: update-wc-qualifying-istanbul
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape tournament and build dashboard
+        # FIBA's /en/events index only carries current/upcoming events, so a
+        # finished tournament like this one has aged off it and --event
+        # name-matching can't find it. Use the exact slug instead (confirmed
+        # from the fiba.basketball event page URL for this tournament).
+        # Single round-robin group of 6 — top 3 advance to the World Cup.
+        run: |
+          python fiba_scrape.py \
+            --slug fiba-womens-basketball-world-cup-2026-qualifying-tournament-istanbul-turkiye \
+            --event-name "FIBA Women's Basketball World Cup 2026 Qualifying Tournament — Istanbul" \
+            --start 2026-03-11 --end 2026-03-17 --host "Istanbul, Türkiye" \
+            --qualify-spots 3 \
+            --name "WC Qualifying Istanbul 2026" \
+            --publish-slug wc-qualifying-istanbul-2026
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A docs "WC Qualifying Istanbul 2026"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore: update World Cup Qualifying (Istanbul) dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || {
+              echo "Rebase hit a conflict — leaving branch alone; retry the run."
+              exit 0
+            }
+            git push origin HEAD:"${{ github.ref_name }}"
+          fi
