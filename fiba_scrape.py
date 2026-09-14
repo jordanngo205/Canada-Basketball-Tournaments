@@ -944,6 +944,17 @@ def run_once(ev, competition: str, args) -> int:
     if details.empty:
         raise SystemExit("No game data available yet for this event.")
 
+    # Backfill missing group letters from the freshly-fetched schedule's group
+    # map. Needed for data seeded from an older CSV (no "group" column at all)
+    # or from a prior run before this field existed — without it every group
+    # standings/qualification computation on the dashboard silently sees zero
+    # games for every team, since the JS strictly requires g.group to be set.
+    if "group" not in details.columns:
+        details["group"] = None
+    team_to_group = {code: g for g, codes in groups.items() for code in codes}
+    need_group = details["group"].isna() & (details["round"] == "Group Phase")
+    details.loc[need_group, "group"] = details.loc[need_group, "home_short"].map(team_to_group)
+
     competitors = combine("competitors", db["participant log"])
     raw_box = pd.concat([f for f in new["box"] if not f.empty], ignore_index=True) if new["box"] else pd.DataFrame()
     player_box = (pd.concat([db["player box scores"], build_player_box(raw_box)], ignore_index=True)
