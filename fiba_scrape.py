@@ -720,7 +720,8 @@ TEAM_COLORS = {
 
 def write_dashboard(outdir: Path, competition: str, details, team_adv, enriched,
                     template: Path, spots: int = 4, event=None,
-                    last_updated: str = "", groups: dict | None = None):
+                    last_updated: str = "", groups: dict | None = None,
+                    publish_slug: str | None = None):
     if not template.exists():
         print(f"\nTemplate not found at '{template.name}' — skipping HTML output.")
         print("Save your dashboard HTML as dashboard_template.html and rerun.")
@@ -808,11 +809,15 @@ def write_dashboard(outdir: Path, competition: str, details, team_adv, enriched,
     path.write_text("\n".join(out), encoding="utf-8")
     print(f"Dashboard written → {path}")
 
-    # GitHub Pages serves from docs/, so keep a copy there for publishing.
+    # GitHub Pages serves from docs/. Each tournament gets its own subfolder
+    # (docs/<publish_slug>/index.html) so multiple dashboards can live on the
+    # same Pages site at once; omitting --publish-slug keeps the original
+    # behaviour of publishing straight to docs/index.html.
     docs = Path(__file__).parent / "docs"
-    docs.mkdir(exist_ok=True)
-    (docs / "index.html").write_text("\n".join(out), encoding="utf-8")
-    print(f"Published copy    → {docs / 'index.html'}")
+    publish_dir = docs / publish_slug if publish_slug else docs
+    publish_dir.mkdir(parents=True, exist_ok=True)
+    (publish_dir / "index.html").write_text("\n".join(out), encoding="utf-8")
+    print(f"Published copy    → {publish_dir / 'index.html'}")
 
 
 # ---------------------------------------------------------------------------
@@ -838,6 +843,9 @@ def main() -> None:
     ap.add_argument("--qualify-spots", type=int, default=4, metavar="N",
                     help="how many teams advance; sets the cut line on the "
                          "Qualification board (default 4)")
+    ap.add_argument("--publish-slug", metavar="SLUG",
+                    help="publish to docs/SLUG/index.html instead of docs/index.html, "
+                         "so multiple tournaments can be served from one Pages site")
     ap.add_argument("--all-games", action="store_true",
                     help="include games that are not final yet (usually fails to parse)")
     ap.add_argument("--watch", type=int, metavar="MINUTES", nargs="?", const=15,
@@ -976,7 +984,7 @@ def run_once(ev, competition: str, args) -> int:
     write_dashboard(outdir, competition, details, team_adv_u, enriched,
                     Path(__file__).parent / "dashboard_template.html",
                     spots=args.qualify_spots, event=ev, last_updated=last_updated,
-                    groups=groups)
+                    groups=groups, publish_slug=args.publish_slug)
     return pending
 
 

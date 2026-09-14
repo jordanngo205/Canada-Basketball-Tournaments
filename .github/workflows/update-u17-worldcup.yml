@@ -1,0 +1,53 @@
+name: Update U17 World Cup Dashboard
+
+# This tournament (Brno, Czechia — 11-19 Jul 2026) has already finished, so
+# there is nothing to poll for. Manual trigger only, e.g. to rebuild the
+# dashboard after a template change.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: update-u17-worldcup
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape tournament and build dashboard
+        run: |
+          python fiba_scrape.py \
+            --event u17 world cup 2026 \
+            --qualify-spots 4 \
+            --name "U17 World Cup 2026" \
+            --publish-slug u17-world-cup-2026
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A docs "U17 World Cup 2026"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore: update U17 World Cup dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || {
+              echo "Rebase hit a conflict — leaving branch alone; retry the run."
+              exit 0
+            }
+            git push origin HEAD:"${{ github.ref_name }}"
+          fi
