@@ -1,0 +1,59 @@
+name: Update Women's AmeriCup 2025 Dashboard
+
+# This tournament (Santiago, Chile — 28 Jun-6 Jul 2025) has already finished,
+# so there is nothing to poll for. Manual trigger only, e.g. to rebuild the
+# dashboard after a template change.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: update-americup-2025
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape tournament and build dashboard
+        # FIBA's /en/events index only carries current/upcoming events, so a
+        # finished tournament like this one has aged off it and --event
+        # name-matching can't find it. Use the exact slug instead.
+        # Groups of 5, top 4 advance to Quarter-Finals.
+        run: |
+          python fiba_scrape.py \
+            --slug fiba-womens-americup-2025 \
+            --event-name "FIBA Women's AmeriCup 2025" \
+            --start 2025-06-28 --end 2025-07-06 --host "Santiago, Chile" \
+            --qualify-spots 4 \
+            --name "Womens AmeriCup 2025" \
+            --publish-slug americup-2025
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A docs "Womens AmeriCup 2025"
+          if git diff --staged --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore: update Women's AmeriCup 2025 dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || {
+              echo "Rebase hit a conflict — leaving branch alone; retry the run."
+              exit 0
+            }
+            git push origin HEAD:"${{ github.ref_name }}"
+          fi
