@@ -12,6 +12,7 @@ which lives in its own `docs/<slug>/` subfolder:
 
 | Tournament | Dashboard |
 |---|---|
+| FIBA Women's AmeriCup 2025 (Santiago, Chile — 28 Jun–6 Jul 2025) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/americup-2025/ |
 | FIBA Women's Basketball World Cup 2026 Qualifying Tournament — Istanbul (Istanbul, Türkiye — 11–17 Mar 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/wc-qualifying-istanbul-2026/ |
 | FIBA U18 Women's AmeriCup 2026 (Irapuato, Mexico — 9–15 Jun 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/u18-americup-2026/ |
 | FIBA U17 Women's Basketball World Cup 2026 (Brno, Czechia — 11–19 Jul 2026) | https://jordanngo205.github.io/Canada-Basketball-Tournaments/u17-world-cup-2026/ |
