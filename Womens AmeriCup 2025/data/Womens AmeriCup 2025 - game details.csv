@@ -1,0 +1,33 @@
+gameId,date,home_team,home_short,home_id,home_score,away_team,away_short,away_id,away_score,country,city,fibaZone,competition,round,group,game_link
+121423,2025-06-28,Argentina,ARG,14,50,Brazil,BRA,27,71,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121423-ARG-BRA
+121424,2025-06-28,El Salvador,ESA,54,34,Canada,CAN,34,100,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121424-ESA-CAN
+121433,2025-06-28,Colombia,COL,40,65,Puerto Rico,PUR,125,68,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121433-COL-PUR
+121434,2025-06-28,Chile,CHI,38,47,USA,USA,154,108,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121434-CHI-USA
+121425,2025-06-29,Dominican Republic,DOM,51,61,El Salvador,ESA,54,59,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121425-DOM-ESA
+121426,2025-06-29,Canada,CAN,34,71,Argentina,ARG,14,48,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121426-CAN-ARG
+121435,2025-06-29,Mexico,MEX,104,76,Chile,CHI,38,59,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121435-MEX-CHI
+121436,2025-06-29,USA,USA,154,80,Colombia,COL,40,43,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121436-USA-COL
+121427,2025-06-30,Argentina,ARG,14,67,Dominican Republic,DOM,51,51,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121427-ARG-DOM
+121428,2025-06-30,Brazil,BRA,27,74,Canada,CAN,34,65,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121428-BRA-CAN
+121437,2025-06-30,Colombia,COL,40,71,Mexico,MEX,104,60,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121437-COL-MEX
+121438,2025-06-30,Puerto Rico,PUR,125,62,USA,USA,154,80,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121438-PUR-USA
+121429,2025-07-01,Dominican Republic,DOM,51,46,Brazil,BRA,27,73,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121429-DOM-BRA
+121430,2025-07-01,El Salvador,ESA,54,57,Argentina,ARG,14,76,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121430-ESA-ARG
+121439,2025-07-01,Mexico,MEX,104,60,Puerto Rico,PUR,125,77,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121439-MEX-PUR
+121440,2025-07-01,Chile,CHI,38,33,Colombia,COL,40,59,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121440-CHI-COL
+121431,2025-07-02,Canada,CAN,34,82,Dominican Republic,DOM,51,46,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121431-CAN-DOM
+121432,2025-07-02,Brazil,BRA,27,106,El Salvador,ESA,54,49,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,A,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121432-BRA-ESA
+121441,2025-07-02,USA,USA,154,104,Mexico,MEX,104,48,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121441-USA-MEX
+121442,2025-07-02,Puerto Rico,PUR,125,75,Chile,CHI,38,38,Chile,Santiago,Americas,FIBA Women's AmeriCup,Group Phase,B,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121442-PUR-CHI
+121443,2025-07-04,Brazil,BRA,27,84,Mexico,MEX,104,61,Chile,Santiago,Americas,FIBA Women's AmeriCup,Quarter-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121443-BRA-MEX
+121444,2025-07-04,Puerto Rico,PUR,125,51,Argentina,ARG,14,53,Chile,Santiago,Americas,FIBA Women's AmeriCup,Quarter-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121444-PUR-ARG
+121445,2025-07-04,USA,USA,154,110,Dominican Republic,DOM,51,44,Chile,Santiago,Americas,FIBA Women's AmeriCup,Quarter-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121445-USA-DOM
+121446,2025-07-04,Canada,CAN,34,73,Colombia,COL,40,49,Chile,Santiago,Americas,FIBA Women's AmeriCup,Quarter-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/121446-CAN-COL
+126786,2025-07-05,Mexico,MEX,104,67,Puerto Rico,PUR,125,72,Chile,Santiago,Americas,FIBA Women's AmeriCup,Classification 5-8,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126786-MEX-PUR
+126787,2025-07-05,Dominican Republic,DOM,51,53,Colombia,COL,40,81,Chile,Santiago,Americas,FIBA Women's AmeriCup,Classification 5-8,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126787-DOM-COL
+126788,2025-07-05,Brazil,BRA,27,108,Argentina,ARG,14,68,Chile,Santiago,Americas,FIBA Women's AmeriCup,Semi-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126788-BRA-ARG
+126789,2025-07-05,USA,USA,154,65,Canada,CAN,34,53,Chile,Santiago,Americas,FIBA Women's AmeriCup,Semi-Finals,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126789-USA-CAN
+126790,2025-07-06,Mexico,MEX,104,84,Dominican Republic,DOM,51,54,Chile,Santiago,Americas,FIBA Women's AmeriCup,Classification 7-8,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126790-MEX-DOM
+126791,2025-07-06,Puerto Rico,PUR,125,65,Colombia,COL,40,76,Chile,Santiago,Americas,FIBA Women's AmeriCup,Classification 5-6,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126791-PUR-COL
+126792,2025-07-06,Argentina,ARG,14,75,Canada,CAN,34,76,Chile,Santiago,Americas,FIBA Women's AmeriCup,3rd Place Game,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126792-ARG-CAN
+126793,2025-07-06,Brazil,BRA,27,84,USA,USA,154,92,Chile,Santiago,Americas,FIBA Women's AmeriCup,Final,,https://www.fiba.basketball/en/events/fiba-womens-americup-2025/games/126793-BRA-USA

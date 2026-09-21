@@ -1,0 +1,65 @@
+gameId,date,fibaZone,competition,round,team,team_short,Win,Loss,Differential
+121423,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Argentina,ARG,0,1,-21
+121423,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Brazil,BRA,1,0,21
+121424,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Canada,CAN,1,0,66
+121424,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,El Salvador,ESA,0,1,-66
+121425,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Dominican Republic,DOM,1,0,2
+121425,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,El Salvador,ESA,0,1,-2
+121426,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Argentina,ARG,0,1,-23
+121426,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Canada,CAN,1,0,23
+121427,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Argentina,ARG,1,0,16
+121427,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Dominican Republic,DOM,0,1,-16
+121428,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Canada,CAN,0,1,-9
+121428,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Brazil,BRA,1,0,9
+121429,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Dominican Republic,DOM,0,1,-27
+121429,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Brazil,BRA,1,0,27
+121430,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Argentina,ARG,1,0,19
+121430,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,El Salvador,ESA,0,1,-19
+121431,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Canada,CAN,1,0,36
+121431,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Dominican Republic,DOM,0,1,-36
+121432,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,El Salvador,ESA,0,1,-57
+121432,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Brazil,BRA,1,0,57
+121433,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Colombia,COL,0,1,-3
+121433,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Puerto Rico,PUR,1,0,3
+121434,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,USA,USA,1,0,61
+121434,2025-06-28,Americas,FIBA Women's AmeriCup,Group Phase,Chile,CHI,0,1,-61
+121435,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Mexico,MEX,1,0,17
+121435,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Chile,CHI,0,1,-17
+121436,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,Colombia,COL,0,1,-37
+121436,2025-06-29,Americas,FIBA Women's AmeriCup,Group Phase,USA,USA,1,0,37
+121437,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Colombia,COL,1,0,11
+121437,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Mexico,MEX,0,1,-11
+121438,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,USA,USA,1,0,18
+121438,2025-06-30,Americas,FIBA Women's AmeriCup,Group Phase,Puerto Rico,PUR,0,1,-18
+121439,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Puerto Rico,PUR,1,0,17
+121439,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Mexico,MEX,0,1,-17
+121440,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Chile,CHI,0,1,-26
+121440,2025-07-01,Americas,FIBA Women's AmeriCup,Group Phase,Colombia,COL,1,0,26
+121441,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Mexico,MEX,0,1,-56
+121441,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,USA,USA,1,0,56
+121442,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Puerto Rico,PUR,1,0,37
+121442,2025-07-02,Americas,FIBA Women's AmeriCup,Group Phase,Chile,CHI,0,1,-37
+121443,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Mexico,MEX,0,1,-23
+121443,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Brazil,BRA,1,0,23
+121444,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Puerto Rico,PUR,0,1,-2
+121444,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Argentina,ARG,1,0,2
+121445,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Dominican Republic,DOM,0,1,-66
+121445,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,USA,USA,1,0,66
+121446,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Canada,CAN,1,0,24
+121446,2025-07-04,Americas,FIBA Women's AmeriCup,Quarter-Finals,Colombia,COL,0,1,-24
+126786,2025-07-05,Americas,FIBA Women's AmeriCup,Classification 5-8,Puerto Rico,PUR,1,0,5
+126786,2025-07-05,Americas,FIBA Women's AmeriCup,Classification 5-8,Mexico,MEX,0,1,-5
+126787,2025-07-05,Americas,FIBA Women's AmeriCup,Classification 5-8,Dominican Republic,DOM,0,1,-28
+126787,2025-07-05,Americas,FIBA Women's AmeriCup,Classification 5-8,Colombia,COL,1,0,28
+126788,2025-07-05,Americas,FIBA Women's AmeriCup,Semi-Finals,Argentina,ARG,0,1,-40
+126788,2025-07-05,Americas,FIBA Women's AmeriCup,Semi-Finals,Brazil,BRA,1,0,40
+126789,2025-07-05,Americas,FIBA Women's AmeriCup,Semi-Finals,USA,USA,1,0,12
+126789,2025-07-05,Americas,FIBA Women's AmeriCup,Semi-Finals,Canada,CAN,0,1,-12
+126790,2025-07-06,Americas,FIBA Women's AmeriCup,Classification 7-8,Dominican Republic,DOM,0,1,-30
+126790,2025-07-06,Americas,FIBA Women's AmeriCup,Classification 7-8,Mexico,MEX,1,0,30
+126791,2025-07-06,Americas,FIBA Women's AmeriCup,Classification 5-6,Puerto Rico,PUR,0,1,-11
+126791,2025-07-06,Americas,FIBA Women's AmeriCup,Classification 5-6,Colombia,COL,1,0,11
+126792,2025-07-06,Americas,FIBA Women's AmeriCup,3rd Place Game,Canada,CAN,1,0,1
+126792,2025-07-06,Americas,FIBA Women's AmeriCup,3rd Place Game,Argentina,ARG,0,1,-1
+126793,2025-07-06,Americas,FIBA Women's AmeriCup,Final,Brazil,BRA,0,1,-8
+126793,2025-07-06,Americas,FIBA Women's AmeriCup,Final,USA,USA,1,0,8

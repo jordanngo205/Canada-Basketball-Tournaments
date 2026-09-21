@@ -1,0 +1,769 @@
+pId,name,uniformNumber,position,nationality,teamId,gameId
+153423,Agostina Burani,10.0,C,Argentina,14,121423
+163689,Melisa Gretter,11.0,PG,Argentina,14,121423
+221605,Candela Gentinetta,13.0,SF,Argentina,14,121423
+214723,Florencia Chagas,14.0,SG,Argentina,14,121423
+277271,Delfina Saravia,19.0,SG,Argentina,14,121423
+159332,Macarena D'urso,20.0,PG,Argentina,14,121423
+221606,Victoria Gauna,23.0,PF,Argentina,14,121423
+200337,Julieta Mungo,3.0,C,Argentina,14,121423
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,121423
+176450,Flor Martinez,5.0,SG,Argentina,14,121423
+170619,Diana Cabrera,7.0,C,Argentina,14,121423
+153434,Andrea Boquete,8.0,SF,Argentina,14,121423
+215036,Kamilla Cardoso,10.0,C,Brazil,27,121423
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,121423
+172947,Damiris Dantas,12.0,PF,Brazil,27,121423
+175283,Cacá Martins,17.0,G,Brazil,27,121423
+200399,Aline Moura,18.0,PF,Brazil,27,121423
+259742,Manu Alves,21.0,C,Brazil,27,121423
+186510,Vitoria Marcelino,22.0,F,Brazil,27,121423
+178708,Alana Gonçalo,24.0,PG,Brazil,27,121423
+193492,Thayna Silva,26.0,F,Brazil,27,121423
+296041,Catarina Ferreira,30.0,SF,Brazil,27,121423
+368432,Ayla McDowell,5.0,SF,Brazil,27,121423
+392716,Bella Nascimento,8.0,G,Brazil,27,121423
+293205,Emily Tevez,10.0,F,El Salvador,54,121424
+209053,Elisa Domínguez,11.0,F,El Salvador,54,121424
+181560,Adriana Rivas,14.0,PG,El Salvador,54,121424
+209055,Fátima Avilés,16.0,PG,El Salvador,54,121424
+223293,Kimberly Villalobos,22.0,C,El Salvador,54,121424
+266073,Gabriela Alfaro,24.0,PG,El Salvador,54,121424
+188447,Hillary Martínez,4.0,SG,El Salvador,54,121424
+239401,Brandi Harvey-Carr,44.0,C,El Salvador,54,121424
+276288,Ana Quijano,5.0,SF,El Salvador,54,121424
+200045,Liliana Alvarado,7.0,F,El Salvador,54,121424
+294819,Gabriela Escobar,8.0,SF,El Salvador,54,121424
+250001,Silvia Vega,9.0,C,El Salvador,54,121424
+188566,Emily Potter,10.0,C,Canada,34,121424
+320676,Syla Swords,12.0,G,Canada,34,121424
+235589,Merissah Russell,13.0,SG,Canada,34,121424
+161433,Kayla Alexander,14.0,C,Canada,34,121424
+323517,Phillipina Kyei,15.0,C,Canada,34,121424
+196900,Shay Colley,2.0,G,Canada,34,121424
+297698,Delaney Gibb,3.0,G,Canada,34,121424
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,121424
+188714,Sami Hill,4.0,G,Canada,34,121424
+217042,Niyah Becker,7.0,F,Canada,34,121424
+266912,Tara Wallack,8.0,SF,Canada,34,121424
+172742,Yvonne Ejim,9.0,PF,Canada,34,121424
+314520,Marta Moscarella,0.0,SG,Colombia,40,121433
+160664,Mabel Martínez,10.0,F,Colombia,40,121433
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,121433
+189132,Marlyn Vente,14.0,C,Colombia,40,121433
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,121433
+214983,Valentina Lopez,21.0,C,Colombia,40,121433
+189134,Esperanza Delgado,22.0,SG,Colombia,40,121433
+278174,Daihana Murillo,5.0,F,Colombia,40,121433
+236912,Yuliany Paz,6.0,C,Colombia,40,121433
+214994,Mayra Caicedo,7.0,PG,Colombia,40,121433
+251137,Carolina Lopez,8.0,PG,Colombia,40,121433
+193445,Manuela Rios,9.0,PG,Colombia,40,121433
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,121433
+188776,Sofia Roma,11.0,C,Puerto Rico,125,121433
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,121433
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,121433
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,121433
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,121433
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,121433
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,121433
+295609,Denise Solis,25.0,F,Puerto Rico,125,121433
+225517,India Pagan,33.0,C,Puerto Rico,125,121433
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,121433
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,121433
+259930,Damaris Alarcon,1.0,PG,Chile,38,121434
+178361,Barbara Cousiño,10.0,PF,Chile,38,121434
+260056,Valentina Monzo,11.0,C,Chile,38,121434
+223051,Constanza Cardenas,12.0,C,Chile,38,121434
+221910,Javiera Campos,2.0,PG,Chile,38,121434
+235811,Jovanka Ljubetic,22.0,G,Chile,38,121434
+186543,Catalina Abuyeres,25.0,PF,Chile,38,121434
+230548,Valentina Ojeda,3.0,PF,Chile,38,121434
+330308,Amanda Guineo,4.0,G,Chile,38,121434
+251604,Catalina Perez,7.0,SF,Chile,38,121434
+277480,Antonia Andaur,8.0,SF,Chile,38,121434
+260050,Catalina Ramirez,9.0,PG,Chile,38,121434
+394219,Hannah Stuelke,10.0,F,USA,154,121434
+320127,Kennedy Smith,11.0,F,USA,154,121434
+298813,Joyce Edwards,12.0,F,USA,154,121434
+392661,Raegan Beers,13.0,C,USA,154,121434
+318117,Grace Van Slooten,14.0,F,USA,154,121434
+318244,Audi Crooks,15.0,C,USA,154,121434
+392454,Flaujae Johnson,4.0,G,USA,154,121434
+268469,Olivia Miles,5.0,G,USA,154,121434
+319297,Hannah Hidalgo,6.0,G,USA,154,121434
+393527,Mikayla Blakes,7.0,G,USA,154,121434
+298282,Madison Booker,8.0,F,USA,154,121434
+392664,Gianna Kneepkens,9.0,G,USA,154,121434
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,121425
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,121425
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,121425
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,121425
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,121425
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,121425
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,121425
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,121425
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,121425
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,121425
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,121425
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,121425
+293205,Emily Tevez,10.0,F,El Salvador,54,121425
+209053,Elisa Domínguez,11.0,F,El Salvador,54,121425
+181560,Adriana Rivas,14.0,PG,El Salvador,54,121425
+209055,Fátima Avilés,16.0,PG,El Salvador,54,121425
+223293,Kimberly Villalobos,22.0,C,El Salvador,54,121425
+266073,Gabriela Alfaro,24.0,PG,El Salvador,54,121425
+188447,Hillary Martínez,4.0,SG,El Salvador,54,121425
+239401,Brandi Harvey-Carr,44.0,C,El Salvador,54,121425
+276288,Ana Quijano,5.0,SF,El Salvador,54,121425
+200045,Liliana Alvarado,7.0,F,El Salvador,54,121425
+294819,Gabriela Escobar,8.0,SF,El Salvador,54,121425
+250001,Silvia Vega,9.0,C,El Salvador,54,121425
+188566,Emily Potter,10.0,C,Canada,34,121426
+320676,Syla Swords,12.0,G,Canada,34,121426
+235589,Merissah Russell,13.0,SG,Canada,34,121426
+161433,Kayla Alexander,14.0,C,Canada,34,121426
+323517,Phillipina Kyei,15.0,C,Canada,34,121426
+196900,Shay Colley,2.0,G,Canada,34,121426
+297698,Delaney Gibb,3.0,G,Canada,34,121426
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,121426
+188714,Sami Hill,4.0,G,Canada,34,121426
+217042,Niyah Becker,7.0,F,Canada,34,121426
+266912,Tara Wallack,8.0,SF,Canada,34,121426
+172742,Yvonne Ejim,9.0,PF,Canada,34,121426
+153423,Agostina Burani,10.0,C,Argentina,14,121426
+163689,Melisa Gretter,11.0,PG,Argentina,14,121426
+221605,Candela Gentinetta,13.0,SF,Argentina,14,121426
+214723,Florencia Chagas,14.0,SG,Argentina,14,121426
+277271,Delfina Saravia,19.0,SG,Argentina,14,121426
+159332,Macarena D'urso,20.0,PG,Argentina,14,121426
+221606,Victoria Gauna,23.0,PF,Argentina,14,121426
+200337,Julieta Mungo,3.0,C,Argentina,14,121426
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,121426
+176450,Flor Martinez,5.0,SG,Argentina,14,121426
+170619,Diana Cabrera,7.0,C,Argentina,14,121426
+153434,Andrea Boquete,8.0,SF,Argentina,14,121426
+198453,Claudia Ramos,10.0,F,Mexico,104,121435
+369234,Gabriela Jaquez,11.0,F,Mexico,104,121435
+168876,Myriam Lara,13.0,C,Mexico,104,121435
+215141,Alexia Lagunas,14.0,PG,Mexico,104,121435
+319031,Anisa Jeffreis,2.0,F,Mexico,104,121435
+213361,Hazel Ramirez,22.0,PG,Mexico,104,121435
+268451,Mayra Gil,31.0,G,Mexico,104,121435
+319490,Ariadna Vidales,33.0,F,Mexico,104,121435
+235923,Katia Gallegos,44.0,PG,Mexico,104,121435
+227782,Karina Esquer,5.0,G,Mexico,104,121435
+268370,Mariana Valenzuela,6.0,F,Mexico,104,121435
+224418,Karla Martinez,7.0,SF,Mexico,104,121435
+259930,Damaris Alarcon,1.0,PG,Chile,38,121435
+178361,Barbara Cousiño,10.0,PF,Chile,38,121435
+260056,Valentina Monzo,11.0,C,Chile,38,121435
+223051,Constanza Cardenas,12.0,C,Chile,38,121435
+221910,Javiera Campos,2.0,PG,Chile,38,121435
+235811,Jovanka Ljubetic,22.0,G,Chile,38,121435
+186543,Catalina Abuyeres,25.0,PF,Chile,38,121435
+230548,Valentina Ojeda,3.0,PF,Chile,38,121435
+330308,Amanda Guineo,4.0,G,Chile,38,121435
+251604,Catalina Perez,7.0,SF,Chile,38,121435
+277480,Antonia Andaur,8.0,SF,Chile,38,121435
+260050,Catalina Ramirez,9.0,PG,Chile,38,121435
+394219,Hannah Stuelke,10.0,F,USA,154,121436
+320127,Kennedy Smith,11.0,F,USA,154,121436
+298813,Joyce Edwards,12.0,F,USA,154,121436
+392661,Raegan Beers,13.0,C,USA,154,121436
+318117,Grace Van Slooten,14.0,F,USA,154,121436
+318244,Audi Crooks,15.0,C,USA,154,121436
+392454,Flaujae Johnson,4.0,G,USA,154,121436
+268469,Olivia Miles,5.0,G,USA,154,121436
+319297,Hannah Hidalgo,6.0,G,USA,154,121436
+393527,Mikayla Blakes,7.0,G,USA,154,121436
+298282,Madison Booker,8.0,F,USA,154,121436
+392664,Gianna Kneepkens,9.0,G,USA,154,121436
+314520,Marta Moscarella,0.0,SG,Colombia,40,121436
+160664,Mabel Martínez,10.0,F,Colombia,40,121436
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,121436
+189132,Marlyn Vente,14.0,C,Colombia,40,121436
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,121436
+214983,Valentina Lopez,21.0,C,Colombia,40,121436
+189134,Esperanza Delgado,22.0,SG,Colombia,40,121436
+278174,Daihana Murillo,5.0,F,Colombia,40,121436
+236912,Yuliany Paz,6.0,C,Colombia,40,121436
+214994,Mayra Caicedo,7.0,PG,Colombia,40,121436
+251137,Carolina Lopez,8.0,PG,Colombia,40,121436
+193445,Manuela Rios,9.0,PG,Colombia,40,121436
+153423,Agostina Burani,10.0,C,Argentina,14,121427
+163689,Melisa Gretter,11.0,PG,Argentina,14,121427
+221605,Candela Gentinetta,13.0,SF,Argentina,14,121427
+214723,Florencia Chagas,14.0,SG,Argentina,14,121427
+277271,Delfina Saravia,19.0,SG,Argentina,14,121427
+159332,Macarena D'urso,20.0,PG,Argentina,14,121427
+221606,Victoria Gauna,23.0,PF,Argentina,14,121427
+200337,Julieta Mungo,3.0,C,Argentina,14,121427
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,121427
+176450,Flor Martinez,5.0,SG,Argentina,14,121427
+170619,Diana Cabrera,7.0,C,Argentina,14,121427
+153434,Andrea Boquete,8.0,SF,Argentina,14,121427
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,121427
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,121427
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,121427
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,121427
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,121427
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,121427
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,121427
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,121427
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,121427
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,121427
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,121427
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,121427
+215036,Kamilla Cardoso,10.0,C,Brazil,27,121428
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,121428
+172947,Damiris Dantas,12.0,PF,Brazil,27,121428
+175283,Cacá Martins,17.0,G,Brazil,27,121428
+200399,Aline Moura,18.0,PF,Brazil,27,121428
+259742,Manu Alves,21.0,C,Brazil,27,121428
+186510,Vitoria Marcelino,22.0,F,Brazil,27,121428
+178708,Alana Gonçalo,24.0,PG,Brazil,27,121428
+193492,Thayna Silva,26.0,F,Brazil,27,121428
+296041,Catarina Ferreira,30.0,SF,Brazil,27,121428
+368432,Ayla McDowell,5.0,SF,Brazil,27,121428
+392716,Bella Nascimento,8.0,G,Brazil,27,121428
+188566,Emily Potter,10.0,C,Canada,34,121428
+320676,Syla Swords,12.0,G,Canada,34,121428
+235589,Merissah Russell,13.0,SG,Canada,34,121428
+161433,Kayla Alexander,14.0,C,Canada,34,121428
+323517,Phillipina Kyei,15.0,C,Canada,34,121428
+196900,Shay Colley,2.0,G,Canada,34,121428
+297698,Delaney Gibb,3.0,G,Canada,34,121428
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,121428
+188714,Sami Hill,4.0,G,Canada,34,121428
+217042,Niyah Becker,7.0,F,Canada,34,121428
+266912,Tara Wallack,8.0,SF,Canada,34,121428
+172742,Yvonne Ejim,9.0,PF,Canada,34,121428
+314520,Marta Moscarella,0.0,SG,Colombia,40,121437
+160664,Mabel Martínez,10.0,F,Colombia,40,121437
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,121437
+189132,Marlyn Vente,14.0,C,Colombia,40,121437
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,121437
+214983,Valentina Lopez,21.0,C,Colombia,40,121437
+189134,Esperanza Delgado,22.0,SG,Colombia,40,121437
+278174,Daihana Murillo,5.0,F,Colombia,40,121437
+236912,Yuliany Paz,6.0,C,Colombia,40,121437
+214994,Mayra Caicedo,7.0,PG,Colombia,40,121437
+251137,Carolina Lopez,8.0,PG,Colombia,40,121437
+193445,Manuela Rios,9.0,PG,Colombia,40,121437
+198453,Claudia Ramos,10.0,F,Mexico,104,121437
+369234,Gabriela Jaquez,11.0,F,Mexico,104,121437
+168876,Myriam Lara,13.0,C,Mexico,104,121437
+215141,Alexia Lagunas,14.0,PG,Mexico,104,121437
+319031,Anisa Jeffreis,2.0,F,Mexico,104,121437
+213361,Hazel Ramirez,22.0,PG,Mexico,104,121437
+268451,Mayra Gil,31.0,G,Mexico,104,121437
+319490,Ariadna Vidales,33.0,F,Mexico,104,121437
+235923,Katia Gallegos,44.0,PG,Mexico,104,121437
+227782,Karina Esquer,5.0,G,Mexico,104,121437
+268370,Mariana Valenzuela,6.0,F,Mexico,104,121437
+224418,Karla Martinez,7.0,SF,Mexico,104,121437
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,121438
+188776,Sofia Roma,11.0,C,Puerto Rico,125,121438
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,121438
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,121438
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,121438
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,121438
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,121438
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,121438
+295609,Denise Solis,25.0,F,Puerto Rico,125,121438
+225517,India Pagan,33.0,C,Puerto Rico,125,121438
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,121438
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,121438
+394219,Hannah Stuelke,10.0,F,USA,154,121438
+320127,Kennedy Smith,11.0,F,USA,154,121438
+298813,Joyce Edwards,12.0,F,USA,154,121438
+392661,Raegan Beers,13.0,C,USA,154,121438
+318117,Grace Van Slooten,14.0,F,USA,154,121438
+318244,Audi Crooks,15.0,C,USA,154,121438
+392454,Flaujae Johnson,4.0,G,USA,154,121438
+268469,Olivia Miles,5.0,G,USA,154,121438
+319297,Hannah Hidalgo,6.0,G,USA,154,121438
+393527,Mikayla Blakes,7.0,G,USA,154,121438
+298282,Madison Booker,8.0,F,USA,154,121438
+392664,Gianna Kneepkens,9.0,G,USA,154,121438
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,121429
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,121429
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,121429
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,121429
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,121429
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,121429
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,121429
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,121429
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,121429
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,121429
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,121429
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,121429
+215036,Kamilla Cardoso,10.0,C,Brazil,27,121429
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,121429
+172947,Damiris Dantas,12.0,PF,Brazil,27,121429
+175283,Cacá Martins,17.0,G,Brazil,27,121429
+200399,Aline Moura,18.0,PF,Brazil,27,121429
+259742,Manu Alves,21.0,C,Brazil,27,121429
+186510,Vitoria Marcelino,22.0,F,Brazil,27,121429
+178708,Alana Gonçalo,24.0,PG,Brazil,27,121429
+193492,Thayna Silva,26.0,F,Brazil,27,121429
+296041,Catarina Ferreira,30.0,SF,Brazil,27,121429
+368432,Ayla McDowell,5.0,SF,Brazil,27,121429
+392716,Bella Nascimento,8.0,G,Brazil,27,121429
+293205,Emily Tevez,10.0,F,El Salvador,54,121430
+209053,Elisa Domínguez,11.0,F,El Salvador,54,121430
+181560,Adriana Rivas,14.0,PG,El Salvador,54,121430
+209055,Fátima Avilés,16.0,PG,El Salvador,54,121430
+223293,Kimberly Villalobos,22.0,C,El Salvador,54,121430
+266073,Gabriela Alfaro,24.0,PG,El Salvador,54,121430
+188447,Hillary Martínez,4.0,SG,El Salvador,54,121430
+239401,Brandi Harvey-Carr,44.0,C,El Salvador,54,121430
+276288,Ana Quijano,5.0,SF,El Salvador,54,121430
+200045,Liliana Alvarado,7.0,F,El Salvador,54,121430
+294819,Gabriela Escobar,8.0,SF,El Salvador,54,121430
+250001,Silvia Vega,9.0,C,El Salvador,54,121430
+153423,Agostina Burani,10.0,C,Argentina,14,121430
+163689,Melisa Gretter,11.0,PG,Argentina,14,121430
+221605,Candela Gentinetta,13.0,SF,Argentina,14,121430
+214723,Florencia Chagas,14.0,SG,Argentina,14,121430
+277271,Delfina Saravia,19.0,SG,Argentina,14,121430
+159332,Macarena D'urso,20.0,PG,Argentina,14,121430
+221606,Victoria Gauna,23.0,PF,Argentina,14,121430
+200337,Julieta Mungo,3.0,C,Argentina,14,121430
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,121430
+176450,Flor Martinez,5.0,SG,Argentina,14,121430
+170619,Diana Cabrera,7.0,C,Argentina,14,121430
+153434,Andrea Boquete,8.0,SF,Argentina,14,121430
+198453,Claudia Ramos,10.0,F,Mexico,104,121439
+369234,Gabriela Jaquez,11.0,F,Mexico,104,121439
+168876,Myriam Lara,13.0,C,Mexico,104,121439
+215141,Alexia Lagunas,14.0,PG,Mexico,104,121439
+319031,Anisa Jeffreis,2.0,F,Mexico,104,121439
+213361,Hazel Ramirez,22.0,PG,Mexico,104,121439
+268451,Mayra Gil,31.0,G,Mexico,104,121439
+319490,Ariadna Vidales,33.0,F,Mexico,104,121439
+235923,Katia Gallegos,44.0,PG,Mexico,104,121439
+227782,Karina Esquer,5.0,G,Mexico,104,121439
+268370,Mariana Valenzuela,6.0,F,Mexico,104,121439
+224418,Karla Martinez,7.0,SF,Mexico,104,121439
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,121439
+188776,Sofia Roma,11.0,C,Puerto Rico,125,121439
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,121439
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,121439
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,121439
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,121439
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,121439
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,121439
+295609,Denise Solis,25.0,F,Puerto Rico,125,121439
+225517,India Pagan,33.0,C,Puerto Rico,125,121439
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,121439
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,121439
+259930,Damaris Alarcon,1.0,PG,Chile,38,121440
+178361,Barbara Cousiño,10.0,PF,Chile,38,121440
+260056,Valentina Monzo,11.0,C,Chile,38,121440
+223051,Constanza Cardenas,12.0,C,Chile,38,121440
+221910,Javiera Campos,2.0,PG,Chile,38,121440
+235811,Jovanka Ljubetic,22.0,G,Chile,38,121440
+186543,Catalina Abuyeres,25.0,PF,Chile,38,121440
+230548,Valentina Ojeda,3.0,PF,Chile,38,121440
+330308,Amanda Guineo,4.0,G,Chile,38,121440
+251604,Catalina Perez,7.0,SF,Chile,38,121440
+277480,Antonia Andaur,8.0,SF,Chile,38,121440
+260050,Catalina Ramirez,9.0,PG,Chile,38,121440
+314520,Marta Moscarella,0.0,SG,Colombia,40,121440
+160664,Mabel Martínez,10.0,F,Colombia,40,121440
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,121440
+189132,Marlyn Vente,14.0,C,Colombia,40,121440
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,121440
+214983,Valentina Lopez,21.0,C,Colombia,40,121440
+189134,Esperanza Delgado,22.0,SG,Colombia,40,121440
+278174,Daihana Murillo,5.0,F,Colombia,40,121440
+236912,Yuliany Paz,6.0,C,Colombia,40,121440
+214994,Mayra Caicedo,7.0,PG,Colombia,40,121440
+251137,Carolina Lopez,8.0,PG,Colombia,40,121440
+193445,Manuela Rios,9.0,PG,Colombia,40,121440
+188566,Emily Potter,10.0,C,Canada,34,121431
+320676,Syla Swords,12.0,G,Canada,34,121431
+235589,Merissah Russell,13.0,SG,Canada,34,121431
+161433,Kayla Alexander,14.0,C,Canada,34,121431
+323517,Phillipina Kyei,15.0,C,Canada,34,121431
+196900,Shay Colley,2.0,G,Canada,34,121431
+297698,Delaney Gibb,3.0,G,Canada,34,121431
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,121431
+188714,Sami Hill,4.0,G,Canada,34,121431
+217042,Niyah Becker,7.0,F,Canada,34,121431
+266912,Tara Wallack,8.0,SF,Canada,34,121431
+172742,Yvonne Ejim,9.0,PF,Canada,34,121431
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,121431
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,121431
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,121431
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,121431
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,121431
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,121431
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,121431
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,121431
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,121431
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,121431
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,121431
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,121431
+215036,Kamilla Cardoso,10.0,C,Brazil,27,121432
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,121432
+172947,Damiris Dantas,12.0,PF,Brazil,27,121432
+175283,Cacá Martins,17.0,G,Brazil,27,121432
+200399,Aline Moura,18.0,PF,Brazil,27,121432
+259742,Manu Alves,21.0,C,Brazil,27,121432
+186510,Vitoria Marcelino,22.0,F,Brazil,27,121432
+178708,Alana Gonçalo,24.0,PG,Brazil,27,121432
+193492,Thayna Silva,26.0,F,Brazil,27,121432
+296041,Catarina Ferreira,30.0,SF,Brazil,27,121432
+368432,Ayla McDowell,5.0,SF,Brazil,27,121432
+392716,Bella Nascimento,8.0,G,Brazil,27,121432
+293205,Emily Tevez,10.0,F,El Salvador,54,121432
+209053,Elisa Domínguez,11.0,F,El Salvador,54,121432
+181560,Adriana Rivas,14.0,PG,El Salvador,54,121432
+209055,Fátima Avilés,16.0,PG,El Salvador,54,121432
+223293,Kimberly Villalobos,22.0,C,El Salvador,54,121432
+266073,Gabriela Alfaro,24.0,PG,El Salvador,54,121432
+188447,Hillary Martínez,4.0,SG,El Salvador,54,121432
+239401,Brandi Harvey-Carr,44.0,C,El Salvador,54,121432
+276288,Ana Quijano,5.0,SF,El Salvador,54,121432
+200045,Liliana Alvarado,7.0,F,El Salvador,54,121432
+294819,Gabriela Escobar,8.0,SF,El Salvador,54,121432
+250001,Silvia Vega,9.0,C,El Salvador,54,121432
+394219,Hannah Stuelke,10.0,F,USA,154,121441
+320127,Kennedy Smith,11.0,F,USA,154,121441
+298813,Joyce Edwards,12.0,F,USA,154,121441
+392661,Raegan Beers,13.0,C,USA,154,121441
+318117,Grace Van Slooten,14.0,F,USA,154,121441
+318244,Audi Crooks,15.0,C,USA,154,121441
+392454,Flaujae Johnson,4.0,G,USA,154,121441
+268469,Olivia Miles,5.0,G,USA,154,121441
+319297,Hannah Hidalgo,6.0,G,USA,154,121441
+393527,Mikayla Blakes,7.0,G,USA,154,121441
+298282,Madison Booker,8.0,F,USA,154,121441
+392664,Gianna Kneepkens,9.0,G,USA,154,121441
+198453,Claudia Ramos,10.0,F,Mexico,104,121441
+369234,Gabriela Jaquez,11.0,F,Mexico,104,121441
+168876,Myriam Lara,13.0,C,Mexico,104,121441
+215141,Alexia Lagunas,14.0,PG,Mexico,104,121441
+319031,Anisa Jeffreis,2.0,F,Mexico,104,121441
+213361,Hazel Ramirez,22.0,PG,Mexico,104,121441
+268451,Mayra Gil,31.0,G,Mexico,104,121441
+319490,Ariadna Vidales,33.0,F,Mexico,104,121441
+235923,Katia Gallegos,44.0,PG,Mexico,104,121441
+227782,Karina Esquer,5.0,G,Mexico,104,121441
+268370,Mariana Valenzuela,6.0,F,Mexico,104,121441
+224418,Karla Martinez,7.0,SF,Mexico,104,121441
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,121442
+188776,Sofia Roma,11.0,C,Puerto Rico,125,121442
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,121442
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,121442
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,121442
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,121442
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,121442
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,121442
+295609,Denise Solis,25.0,F,Puerto Rico,125,121442
+225517,India Pagan,33.0,C,Puerto Rico,125,121442
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,121442
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,121442
+259930,Damaris Alarcon,1.0,PG,Chile,38,121442
+178361,Barbara Cousiño,10.0,PF,Chile,38,121442
+260056,Valentina Monzo,11.0,C,Chile,38,121442
+223051,Constanza Cardenas,12.0,C,Chile,38,121442
+221910,Javiera Campos,2.0,PG,Chile,38,121442
+235811,Jovanka Ljubetic,22.0,G,Chile,38,121442
+186543,Catalina Abuyeres,25.0,PF,Chile,38,121442
+230548,Valentina Ojeda,3.0,PF,Chile,38,121442
+330308,Amanda Guineo,4.0,G,Chile,38,121442
+251604,Catalina Perez,7.0,SF,Chile,38,121442
+277480,Antonia Andaur,8.0,SF,Chile,38,121442
+260050,Catalina Ramirez,9.0,PG,Chile,38,121442
+215036,Kamilla Cardoso,10.0,C,Brazil,27,121443
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,121443
+172947,Damiris Dantas,12.0,PF,Brazil,27,121443
+175283,Cacá Martins,17.0,G,Brazil,27,121443
+200399,Aline Moura,18.0,PF,Brazil,27,121443
+259742,Manu Alves,21.0,C,Brazil,27,121443
+186510,Vitoria Marcelino,22.0,F,Brazil,27,121443
+178708,Alana Gonçalo,24.0,PG,Brazil,27,121443
+193492,Thayna Silva,26.0,F,Brazil,27,121443
+296041,Catarina Ferreira,30.0,SF,Brazil,27,121443
+368432,Ayla McDowell,5.0,SF,Brazil,27,121443
+392716,Bella Nascimento,8.0,G,Brazil,27,121443
+198453,Claudia Ramos,10.0,F,Mexico,104,121443
+369234,Gabriela Jaquez,11.0,F,Mexico,104,121443
+168876,Myriam Lara,13.0,C,Mexico,104,121443
+215141,Alexia Lagunas,14.0,PG,Mexico,104,121443
+319031,Anisa Jeffreis,2.0,F,Mexico,104,121443
+213361,Hazel Ramirez,22.0,PG,Mexico,104,121443
+268451,Mayra Gil,31.0,G,Mexico,104,121443
+319490,Ariadna Vidales,33.0,F,Mexico,104,121443
+235923,Katia Gallegos,44.0,PG,Mexico,104,121443
+227782,Karina Esquer,5.0,G,Mexico,104,121443
+268370,Mariana Valenzuela,6.0,F,Mexico,104,121443
+224418,Karla Martinez,7.0,SF,Mexico,104,121443
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,121444
+188776,Sofia Roma,11.0,C,Puerto Rico,125,121444
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,121444
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,121444
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,121444
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,121444
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,121444
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,121444
+295609,Denise Solis,25.0,F,Puerto Rico,125,121444
+225517,India Pagan,33.0,C,Puerto Rico,125,121444
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,121444
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,121444
+153423,Agostina Burani,10.0,C,Argentina,14,121444
+163689,Melisa Gretter,11.0,PG,Argentina,14,121444
+221605,Candela Gentinetta,13.0,SF,Argentina,14,121444
+214723,Florencia Chagas,14.0,SG,Argentina,14,121444
+277271,Delfina Saravia,19.0,SG,Argentina,14,121444
+159332,Macarena D'urso,20.0,PG,Argentina,14,121444
+221606,Victoria Gauna,23.0,PF,Argentina,14,121444
+200337,Julieta Mungo,3.0,C,Argentina,14,121444
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,121444
+176450,Flor Martinez,5.0,SG,Argentina,14,121444
+170619,Diana Cabrera,7.0,C,Argentina,14,121444
+153434,Andrea Boquete,8.0,SF,Argentina,14,121444
+394219,Hannah Stuelke,10.0,F,USA,154,121445
+320127,Kennedy Smith,11.0,F,USA,154,121445
+298813,Joyce Edwards,12.0,F,USA,154,121445
+392661,Raegan Beers,13.0,C,USA,154,121445
+318117,Grace Van Slooten,14.0,F,USA,154,121445
+318244,Audi Crooks,15.0,C,USA,154,121445
+392454,Flaujae Johnson,4.0,G,USA,154,121445
+268469,Olivia Miles,5.0,G,USA,154,121445
+319297,Hannah Hidalgo,6.0,G,USA,154,121445
+393527,Mikayla Blakes,7.0,G,USA,154,121445
+298282,Madison Booker,8.0,F,USA,154,121445
+392664,Gianna Kneepkens,9.0,G,USA,154,121445
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,121445
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,121445
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,121445
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,121445
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,121445
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,121445
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,121445
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,121445
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,121445
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,121445
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,121445
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,121445
+188566,Emily Potter,10.0,C,Canada,34,121446
+320676,Syla Swords,12.0,G,Canada,34,121446
+235589,Merissah Russell,13.0,SG,Canada,34,121446
+161433,Kayla Alexander,14.0,C,Canada,34,121446
+323517,Phillipina Kyei,15.0,C,Canada,34,121446
+196900,Shay Colley,2.0,G,Canada,34,121446
+297698,Delaney Gibb,3.0,G,Canada,34,121446
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,121446
+188714,Sami Hill,4.0,G,Canada,34,121446
+217042,Niyah Becker,7.0,F,Canada,34,121446
+266912,Tara Wallack,8.0,SF,Canada,34,121446
+172742,Yvonne Ejim,9.0,PF,Canada,34,121446
+314520,Marta Moscarella,0.0,SG,Colombia,40,121446
+160664,Mabel Martínez,10.0,F,Colombia,40,121446
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,121446
+189132,Marlyn Vente,14.0,C,Colombia,40,121446
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,121446
+214983,Valentina Lopez,21.0,C,Colombia,40,121446
+189134,Esperanza Delgado,22.0,SG,Colombia,40,121446
+278174,Daihana Murillo,5.0,F,Colombia,40,121446
+236912,Yuliany Paz,6.0,C,Colombia,40,121446
+214994,Mayra Caicedo,7.0,PG,Colombia,40,121446
+251137,Carolina Lopez,8.0,PG,Colombia,40,121446
+193445,Manuela Rios,9.0,PG,Colombia,40,121446
+198453,Claudia Ramos,10.0,F,Mexico,104,126786
+369234,Gabriela Jaquez,11.0,F,Mexico,104,126786
+168876,Myriam Lara,13.0,C,Mexico,104,126786
+215141,Alexia Lagunas,14.0,PG,Mexico,104,126786
+319031,Anisa Jeffreis,2.0,F,Mexico,104,126786
+213361,Hazel Ramirez,22.0,PG,Mexico,104,126786
+268451,Mayra Gil,31.0,G,Mexico,104,126786
+319490,Ariadna Vidales,33.0,F,Mexico,104,126786
+235923,Katia Gallegos,44.0,PG,Mexico,104,126786
+227782,Karina Esquer,5.0,G,Mexico,104,126786
+268370,Mariana Valenzuela,6.0,F,Mexico,104,126786
+224418,Karla Martinez,7.0,SF,Mexico,104,126786
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,126786
+188776,Sofia Roma,11.0,C,Puerto Rico,125,126786
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,126786
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,126786
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,126786
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,126786
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,126786
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,126786
+295609,Denise Solis,25.0,F,Puerto Rico,125,126786
+225517,India Pagan,33.0,C,Puerto Rico,125,126786
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,126786
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,126786
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,126787
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,126787
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,126787
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,126787
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,126787
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,126787
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,126787
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,126787
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,126787
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,126787
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,126787
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,126787
+314520,Marta Moscarella,0.0,SG,Colombia,40,126787
+160664,Mabel Martínez,10.0,F,Colombia,40,126787
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,126787
+189132,Marlyn Vente,14.0,C,Colombia,40,126787
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,126787
+214983,Valentina Lopez,21.0,C,Colombia,40,126787
+189134,Esperanza Delgado,22.0,SG,Colombia,40,126787
+278174,Daihana Murillo,5.0,F,Colombia,40,126787
+236912,Yuliany Paz,6.0,C,Colombia,40,126787
+214994,Mayra Caicedo,7.0,PG,Colombia,40,126787
+251137,Carolina Lopez,8.0,PG,Colombia,40,126787
+193445,Manuela Rios,9.0,PG,Colombia,40,126787
+215036,Kamilla Cardoso,10.0,C,Brazil,27,126788
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,126788
+172947,Damiris Dantas,12.0,PF,Brazil,27,126788
+175283,Cacá Martins,17.0,G,Brazil,27,126788
+200399,Aline Moura,18.0,PF,Brazil,27,126788
+259742,Manu Alves,21.0,C,Brazil,27,126788
+186510,Vitoria Marcelino,22.0,F,Brazil,27,126788
+178708,Alana Gonçalo,24.0,PG,Brazil,27,126788
+193492,Thayna Silva,26.0,F,Brazil,27,126788
+296041,Catarina Ferreira,30.0,SF,Brazil,27,126788
+368432,Ayla McDowell,5.0,SF,Brazil,27,126788
+392716,Bella Nascimento,8.0,G,Brazil,27,126788
+153423,Agostina Burani,10.0,C,Argentina,14,126788
+163689,Melisa Gretter,11.0,PG,Argentina,14,126788
+221605,Candela Gentinetta,13.0,SF,Argentina,14,126788
+214723,Florencia Chagas,14.0,SG,Argentina,14,126788
+277271,Delfina Saravia,19.0,SG,Argentina,14,126788
+159332,Macarena D'urso,20.0,PG,Argentina,14,126788
+221606,Victoria Gauna,23.0,PF,Argentina,14,126788
+200337,Julieta Mungo,3.0,C,Argentina,14,126788
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,126788
+176450,Flor Martinez,5.0,SG,Argentina,14,126788
+170619,Diana Cabrera,7.0,C,Argentina,14,126788
+153434,Andrea Boquete,8.0,SF,Argentina,14,126788
+394219,Hannah Stuelke,10.0,F,USA,154,126789
+320127,Kennedy Smith,11.0,F,USA,154,126789
+298813,Joyce Edwards,12.0,F,USA,154,126789
+392661,Raegan Beers,13.0,C,USA,154,126789
+318117,Grace Van Slooten,14.0,F,USA,154,126789
+318244,Audi Crooks,15.0,C,USA,154,126789
+392454,Flaujae Johnson,4.0,G,USA,154,126789
+268469,Olivia Miles,5.0,G,USA,154,126789
+319297,Hannah Hidalgo,6.0,G,USA,154,126789
+393527,Mikayla Blakes,7.0,G,USA,154,126789
+298282,Madison Booker,8.0,F,USA,154,126789
+392664,Gianna Kneepkens,9.0,G,USA,154,126789
+188566,Emily Potter,10.0,C,Canada,34,126789
+320676,Syla Swords,12.0,G,Canada,34,126789
+235589,Merissah Russell,13.0,SG,Canada,34,126789
+161433,Kayla Alexander,14.0,C,Canada,34,126789
+323517,Phillipina Kyei,15.0,C,Canada,34,126789
+196900,Shay Colley,2.0,G,Canada,34,126789
+297698,Delaney Gibb,3.0,G,Canada,34,126789
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,126789
+188714,Sami Hill,4.0,G,Canada,34,126789
+217042,Niyah Becker,7.0,F,Canada,34,126789
+266912,Tara Wallack,8.0,SF,Canada,34,126789
+172742,Yvonne Ejim,9.0,PF,Canada,34,126789
+198453,Claudia Ramos,10.0,F,Mexico,104,126790
+369234,Gabriela Jaquez,11.0,F,Mexico,104,126790
+168876,Myriam Lara,13.0,C,Mexico,104,126790
+215141,Alexia Lagunas,14.0,PG,Mexico,104,126790
+319031,Anisa Jeffreis,2.0,F,Mexico,104,126790
+213361,Hazel Ramirez,22.0,PG,Mexico,104,126790
+268451,Mayra Gil,31.0,G,Mexico,104,126790
+319490,Ariadna Vidales,33.0,F,Mexico,104,126790
+235923,Katia Gallegos,44.0,PG,Mexico,104,126790
+227782,Karina Esquer,5.0,G,Mexico,104,126790
+268370,Mariana Valenzuela,6.0,F,Mexico,104,126790
+224418,Karla Martinez,7.0,SF,Mexico,104,126790
+269964,Glorivel Rodriguez,1.0,PG,Dominican Republic,51,126790
+239986,Giocelis Reynoso,13.0,C,Dominican Republic,51,126790
+235951,Yirsy Queliz,15.0,PG,Dominican Republic,51,126790
+205219,Anyi Hodge,21.0,G,Dominican Republic,51,126790
+269965,Hellary De Los Santos,24.0,F,Dominican Republic,51,126790
+269961,Cesarina Capellan,3.0,SF,Dominican Republic,51,126790
+394173,Ileana Sosa,44.0,C,Dominican Republic,51,126790
+144776,Yohanna Morton,5.0,G,Dominican Republic,51,126790
+205230,Yenifer Jimenez,6.0,F,Dominican Republic,51,126790
+162321,Genesis Evangelista,7.0,G,Dominican Republic,51,126790
+176174,Yamel Abreu,8.0,PG,Dominican Republic,51,126790
+394212,Madelyn  Batista,9.0,PF,Dominican Republic,51,126790
+181909,Tayra Melendez,1.0,F,Puerto Rico,125,126791
+188776,Sofia Roma,11.0,C,Puerto Rico,125,126791
+295611,Ahlana Smith,12.0,G,Puerto Rico,125,126791
+393526,Angelica Velez,15.0,PG,Puerto Rico,125,126791
+291149,Brianna Jones,2.0,SG,Puerto Rico,125,126791
+314595,Mya Hollingshed,21.0,PF,Puerto Rico,125,126791
+236841,Arella Guirantes,22.0,G,Puerto Rico,125,126791
+323904,Trinity San Antonio,23.0,PG,Puerto Rico,125,126791
+295609,Denise Solis,25.0,F,Puerto Rico,125,126791
+225517,India Pagan,33.0,C,Puerto Rico,125,126791
+147107,Pamela Rosado,5.0,PG,Puerto Rico,125,126791
+289878,Jacqueline Benitez,55.0,G,Puerto Rico,125,126791
+314520,Marta Moscarella,0.0,SG,Colombia,40,126791
+160664,Mabel Martínez,10.0,F,Colombia,40,126791
+163900,Jenifer Muñoz,12.0,SG,Colombia,40,126791
+189132,Marlyn Vente,14.0,C,Colombia,40,126791
+230237,Daniela Gonzalez,19.0,PF,Colombia,40,126791
+214983,Valentina Lopez,21.0,C,Colombia,40,126791
+189134,Esperanza Delgado,22.0,SG,Colombia,40,126791
+278174,Daihana Murillo,5.0,F,Colombia,40,126791
+236912,Yuliany Paz,6.0,C,Colombia,40,126791
+214994,Mayra Caicedo,7.0,PG,Colombia,40,126791
+251137,Carolina Lopez,8.0,PG,Colombia,40,126791
+193445,Manuela Rios,9.0,PG,Colombia,40,126791
+153423,Agostina Burani,10.0,C,Argentina,14,126792
+163689,Melisa Gretter,11.0,PG,Argentina,14,126792
+221605,Candela Gentinetta,13.0,SF,Argentina,14,126792
+214723,Florencia Chagas,14.0,SG,Argentina,14,126792
+277271,Delfina Saravia,19.0,SG,Argentina,14,126792
+159332,Macarena D'urso,20.0,PG,Argentina,14,126792
+221606,Victoria Gauna,23.0,PF,Argentina,14,126792
+200337,Julieta Mungo,3.0,C,Argentina,14,126792
+214715,Amaiquen Siciliano,4.0,PG,Argentina,14,126792
+176450,Flor Martinez,5.0,SG,Argentina,14,126792
+170619,Diana Cabrera,7.0,C,Argentina,14,126792
+153434,Andrea Boquete,8.0,SF,Argentina,14,126792
+188566,Emily Potter,10.0,C,Canada,34,126792
+320676,Syla Swords,12.0,G,Canada,34,126792
+235589,Merissah Russell,13.0,SG,Canada,34,126792
+161433,Kayla Alexander,14.0,C,Canada,34,126792
+323517,Phillipina Kyei,15.0,C,Canada,34,126792
+196900,Shay Colley,2.0,G,Canada,34,126792
+297698,Delaney Gibb,3.0,G,Canada,34,126792
+298515,Shayeann Day-Wilson,30.0,PG,Canada,34,126792
+188714,Sami Hill,4.0,G,Canada,34,126792
+217042,Niyah Becker,7.0,F,Canada,34,126792
+266912,Tara Wallack,8.0,SF,Canada,34,126792
+172742,Yvonne Ejim,9.0,PF,Canada,34,126792
+215036,Kamilla Cardoso,10.0,C,Brazil,27,126793
+215026,Emanuely De Oliveira,11.0,SF,Brazil,27,126793
+172947,Damiris Dantas,12.0,PF,Brazil,27,126793
+175283,Cacá Martins,17.0,G,Brazil,27,126793
+200399,Aline Moura,18.0,PF,Brazil,27,126793
+259742,Manu Alves,21.0,C,Brazil,27,126793
+186510,Vitoria Marcelino,22.0,F,Brazil,27,126793
+178708,Alana Gonçalo,24.0,PG,Brazil,27,126793
+193492,Thayna Silva,26.0,F,Brazil,27,126793
+296041,Catarina Ferreira,30.0,SF,Brazil,27,126793
+368432,Ayla McDowell,5.0,SF,Brazil,27,126793
+392716,Bella Nascimento,8.0,G,Brazil,27,126793
+394219,Hannah Stuelke,10.0,F,USA,154,126793
+320127,Kennedy Smith,11.0,F,USA,154,126793
+298813,Joyce Edwards,12.0,F,USA,154,126793
+392661,Raegan Beers,13.0,C,USA,154,126793
+318117,Grace Van Slooten,14.0,F,USA,154,126793
+318244,Audi Crooks,15.0,C,USA,154,126793
+392454,Flaujae Johnson,4.0,G,USA,154,126793
+268469,Olivia Miles,5.0,G,USA,154,126793
+319297,Hannah Hidalgo,6.0,G,USA,154,126793
+393527,Mikayla Blakes,7.0,G,USA,154,126793
+298282,Madison Booker,8.0,F,USA,154,126793
+392664,Gianna Kneepkens,9.0,G,USA,154,126793
